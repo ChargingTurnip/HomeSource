@@ -1,0 +1,20 @@
+// Physics Sounds
+//
+//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//   uses CHAN_STATIC in others, so I didn't specify a channel here
+//  Volume is determined procedurally by the physics code
+//
+
+"Player.GroundPound"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.40"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"physics/concrete/boulder_impact_hard1.wav"
+		"wave"		"physics/concrete/boulder_impact_hard2.wav"
+		"wave"		"physics/concrete/boulder_impact_hard3.wav"
+		"wave"		"physics/concrete/boulder_impact_hard4.wav"
+	}
+}

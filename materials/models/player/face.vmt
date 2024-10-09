@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/face"
+	"$translucent" "1"
+}
