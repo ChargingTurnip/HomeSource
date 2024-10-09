@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8866"
-	"mapversion" "108"
+	"mapversion" "109"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -107,7 +107,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "108"
+	"mapversion" "109"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3877,7 +3877,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[-1 0 0 -465.454] 0.2"
-			"vaxis" "[0 -0 -1 1024] 0.125"
+			"vaxis" "[0 -0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4041,7 +4041,7 @@ world
 			}
 			"material" "DEV/DEV_LOWERWALLMETAL01A"
 			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[-1 0 -0 127.999] 0.5"
+			"vaxis" "[-1 0 -0 128] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4463,7 +4463,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4481,7 +4481,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4699,7 +4699,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4717,7 +4717,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5053,7 +5053,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 1 0 -1024] 0.125"
+			"vaxis" "[0 1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5289,7 +5289,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5307,7 +5307,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5407,7 +5407,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5425,7 +5425,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5525,7 +5525,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5543,7 +5543,7 @@ world
 			}
 			"material" "DEV/DEV_CORRUGATEDMETAL"
 			"uaxis" "[1 0 0 -409.6] 0.325"
-			"vaxis" "[0 -1 0 -1024] 0.125"
+			"vaxis" "[0 -1 0 -0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8758,16 +8758,17 @@ entity
 }
 entity
 {
-	"id" "41"
-	"classname" "info_player_start"
-	"angles" "0 90 0"
-	"origin" "1600 -1024 65"
+	"id" "5124"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "instances/playable_start"
+	"origin" "1600 -960 99.8837"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
+		"logicalpos" "[0 1000]"
 	}
 }
 entity
