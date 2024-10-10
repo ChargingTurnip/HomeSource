@@ -2,9 +2,12 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8866"
-	"mapversion" "0"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
+}
+visgroups
+{
 }
 viewsettings
 {
@@ -65,7 +68,7 @@ light_plus
 postprocess_plus
 {
 	"enable" "1"
-	"copied_from_controller" "0"
+	"copied_from_controller" "1"
 	"bloom_scale" "1"
 	"bloom_exponent" "2.5"
 	"bloom_saturation" "1"
@@ -86,12 +89,59 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "0"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "command,Command,thirdperson,1,-1"
+		"OnMapSpawn" "command,Command,r_camera_cinematic 1,1,-1"
+	}
+	"origin" "-28 36 28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "-28 -28 -36"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 14000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "point_clientcommand"
+	"targetname" "command"
+	"origin" "36 36 28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 cameras
 {

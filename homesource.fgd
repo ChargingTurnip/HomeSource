@@ -4673,3 +4673,8 @@
 //[
 //	input Enable(vector) : "Sets a new radius and time to interpolate to it(as a vector <Size> <Time in Seconds>)."
 //]
+
+@PointClass base(Targetname, Parentname) studio("models/items/item_paper_small.mdl") = item_paper_small : "Item Paper Small"
+[
+	input Toggle(void) : "Toggle entity."
+]
