@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8866"
-	"mapversion" "3"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,7 +106,7 @@ entity
 		"OnMapSpawn" "command,Command,thirdperson,0,-1"
 		"OnMapSpawn" "command,Command,r_camera_cinematic 1,0,-1"
 	}
-	"origin" "-28 36 28"
+	"origin" "0 64 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -120,7 +120,7 @@ entity
 	"id" "4"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "-28 -28 -36"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "0 255 0"
@@ -134,7 +134,7 @@ entity
 	"id" "6"
 	"classname" "point_clientcommand"
 	"targetname" "command"
-	"origin" "36 36 28"
+	"origin" "-64 64 64"
 	editor
 	{
 		"color" "220 30 220"

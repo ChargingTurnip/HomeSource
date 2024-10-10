@@ -18,3 +18,11 @@
 		"wave"		"physics/concrete/boulder_impact_hard4.wav"
 	}
 }
+
+"Player.Skid"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.5"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"		"player/skid.wav"
+}

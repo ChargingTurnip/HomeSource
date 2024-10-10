@@ -1,0 +1,23 @@
+17:18:19.881 INFO  Loading F:\SteamLibrary\steamapps\sourcemods\HomeSource\maps\gear_zone.bsp
+17:18:20.102 WARN  Lump LUMP_CUBEMAPS is empty
+17:18:20.161 WARN  Lump LUMP_CLIPPORTALVERTS is empty
+17:18:20.167 WARN  Lump LUMP_DISPINFO is empty
+17:18:20.170 WARN  Lump LUMP_DISP_VERTS is empty
+17:18:20.171 WARN  Lump LUMP_DISP_TRIS is empty
+17:18:20.172 WARN  Lump LUMP_OVERLAY_SYSTEM_LEVELS is empty
+17:18:20.192 INFO  BSP version: 20
+17:18:20.195 INFO  Game: Black Mesa
+17:18:20.235 INFO  No areaportals to reallocate...
+17:18:20.267 INFO  No occluders to reallocate...
+17:18:20.561 INFO  2457 (23.6%) exact brushside->origface matches
+17:18:20.570 INFO  4/0 (nondisp/disp) original faces left after exact brushside->origface matching
+17:18:20.681 INFO  377 (3.6%) partial brushside->origface matches
+17:18:20.684 INFO  Writing brushes and planes
+17:18:20.857 INFO  Writing displacements
+17:18:20.857 INFO  Writing entities
+17:18:21.162 INFO  Writing func_details
+17:18:21.242 INFO  Writing info_overlays
+17:18:21.247 INFO  Writing prop_statics
+17:18:21.248 INFO  Writing env_cubemaps
+17:18:21.248 INFO  Writing func_ladders
+17:18:21.251 INFO  Finished decompiling F:\SteamLibrary\steamapps\sourcemods\HomeSource\maps\gear_zone.bsp.
