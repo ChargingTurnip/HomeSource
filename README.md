@@ -9,4 +9,6 @@ if you want to see the animation work ingame, extract it yourself
 
 right now some stuff is disabled, so if you want to play the game properly, load any of the dev_test maps and enable thirdperson and r_camera_cinematic
 
+set your singleplayer sdk beta branch to upcoming
+
 https://discord.gg/WBjJn5YjZu
