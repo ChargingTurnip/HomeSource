@@ -1,8 +1,6 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\items\paper\paper_small"
-	"$selfillum" "1"
-	"$selfillumtint" "[0.6 0.6 0.6]"
 	"$bumpmap" "models\items\paper\paper_small_normal"
 
 	"$phong" "1"
@@ -11,6 +9,11 @@
 	"$lightwarptexture" "models/player/player_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"
+
+	"$detail" "models\items\paper\paper_small"	
+	"$detailscale" "1"
+	"$detailblendmode" "5"
+	"$detailblendfactor" "0.1"
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
