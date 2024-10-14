@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/brickwall_05"
+	"$bumpmap" "brick/brickwall_bump"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+
+       	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.5"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+}

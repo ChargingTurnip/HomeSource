@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/brickwall_04b"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+
+      //  "$detail" "detail\noise_detail_01"
+	//"$detailscale" "2"
+	//"$detailblendfactor" .6
+	//"$detailblendmode" 0
+}

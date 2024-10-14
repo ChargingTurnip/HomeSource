@@ -168,6 +168,17 @@
 	]
 ]
 
+@SolidClass base(Trigger) = func_deathzone :
+	"A volumetric trigger that teleports the player to the previous checkpoint."
+[
+]
+
+@SolidClass base(Trigger) = func_checkpoint :
+	"A volumetric trigger that sets the players current checkpoint."
+[
+	spawnpoint(target_destination) : "Spawn Point" : "" : "Entity to use as origin for spawn point."
+]
+
 @SolidClass base(CombineBallSpawners) = func_combine_ball_spawner :
     "Spawns Combine balls."
 [

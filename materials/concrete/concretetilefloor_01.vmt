@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/concretetilefloor_01"
+	"$bumpmap" "concrete/concretetilefloor_bump"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.125"
+	"$detailblendfactor" 5
+	"$detailblendmode" 0
+}

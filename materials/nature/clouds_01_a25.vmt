@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "nature/clouds_01"
+	"$translucent" "1"
+	"$alpha" "0.25"
+
+	"%tooltexture" "nature/cloud001d"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.02
+			"texturescrollangle" 0.07
+		}
+	}
+}
+
