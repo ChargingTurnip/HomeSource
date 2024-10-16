@@ -168,7 +168,7 @@
 	]
 ]
 
-@SolidClass base(Trigger) = func_deathzone :
+@SolidClass base(Trigger) = func_deathplane :
 	"A volumetric trigger that teleports the player to the previous checkpoint."
 [
 ]
