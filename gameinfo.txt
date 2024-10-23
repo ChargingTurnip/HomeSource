@@ -1,7 +1,8 @@
 "GameInfo"
 {
+	gamelogo 1
 	game 		"HomeSource"
-	title 		"HomeSource'"
+	//title 		"HomeSource'"
 	title2		""
 
 	type		singleplayer_only

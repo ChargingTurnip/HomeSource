@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_pipes/pipe01b"
+	"$bumptexture" "Models/props_pipes/pipe01_bump"
+}

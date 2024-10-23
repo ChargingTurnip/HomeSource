@@ -171,6 +171,21 @@
 @SolidClass base(Trigger) = func_deathplane :
 	"A volumetric trigger that teleports the player to the previous checkpoint."
 [
+	fadeflag(choices) : "Screen Fade Type" : "Black" =
+	[
+		0 : "Black"
+		1 : "White"
+	]
+	freezeangles(choices) : "Freeze Camera Angle" : 1 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	freezeorigin(choices) : "Freeze Camera Position" : 1 = 
+	[
+		1 : "Yes"
+		0 : "No"
+	]
 ]
 
 @SolidClass base(Trigger) = func_checkpoint :

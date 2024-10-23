@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"overlays/groundx"
+	"$translucent" 1
+	"%keywords" "hs"
+
+ 	Proxies
+  	{
+    		ToggleTexture
+    		{
+      			ToggleTextureVar         $basetexture
+      			ToggleTextureFrameNumVar $frame
+    		}
+  	}
+}
