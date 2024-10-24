@@ -11,6 +11,7 @@
 // NPCs
 //
 //-------------------------------------------------------------------------
+
 @BaseClass base(BaseNPC) = TalkNPC
 [
 	UseSentence(string) : "Use Sentence"
@@ -4703,4 +4704,42 @@
 @PointClass base(Targetname, Parentname) studio("models/items/item_paper_small.mdl") = item_paper_small : "Item Paper Small"
 [
 	input Toggle(void) : "Toggle entity."
+]
+
+@PointClass base(Targetname) iconsprite("editor/game_text.vmt") = game_text_timer : 
+	"An entity that displays a timer on player's screens." 
+[
+	spawnflags(flags) =
+	[
+		1: "All Players" : 0
+	]
+
+	timetotal(integer) : "Total Time" : 120 : "How much time this timer will have."
+	x(string) : "X (0 - 1.0 = left to right) (-1 centers)" : "-1" : "Horizontal position on the player's screens to draw the text. The value should be between 0 and 1, where 0 is the far left of the screen and 1 is the far right. -1 centers the text."
+	y(string) : "Y (0 - 1.0 = top to bottom) (-1 centers)" : "-1" : "Vertical position on the player's screens to draw the text. The value should be between 0 and 1, where 0 is the top of the screen and 1 is the bottom. -1 centers the text."
+	effect(Choices) : "Text Effect" : 0 =
+	[
+		0 : "Fade In/Out"
+		1 : "Credits"
+		2 : "Scan Out"
+	]
+	color(color255) : "Color1" : "100 100 100"
+	color2(color255) : "Color2" : "240 110 0"
+	fadein(string) : "Fade in Time (or character scan time)" : "1.5" : "The time it should take for the text to fully fade in."
+	fadeout(string) : "Fade Out Time" : "0.5" : "The time it should take for the text to fade out, after the hold time has expired."
+	holdtime(string) : "Hold Time" : "1.2" : "The time the text should stay onscreen, after fading in, before it begins to fade out."
+	fxtime(string) : "Scan time (scan effect only)" : "0.25" : "If the 'Text Effect' is set to Scan Out, this is the time it should take to scan out all the letters in the text."
+	channel(choices) : "Text Channel" : 1 : "You can have up to four individual game_text messages onscreen at once, stored in channels. Select which channel this text should be placed in, which will overwrite any active message already in that channel." =
+	[
+		1 : "Channel 1"
+		2 : "Channel 2"
+		3 : "Channel 3" 
+		4 : "Channel 4"
+	]
+	master(string) : "Master" : : "Legacy support: The name of a master entity. If the master hasn't been activated, this entity will not activate."
+
+	// Inputs
+	input Display(void) : "Display and start the timer."
+
+	output OnTimeUp(void) : "Fires when the timer runs out."
 ]

@@ -1,0 +1,21 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Metal/metalwall060a"
+	"$surfaceprop" "metal"
+	"%keywords" "airexchange,combine"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "1"
+			"texturescrollangle" "90.00"
+		}
+		"ConveyorScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+		}
+	}
+}
