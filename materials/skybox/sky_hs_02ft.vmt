@@ -1,0 +1,8 @@
+"Sky"
+{
+	// Original shader: BaseTexture
+"$hdrbasetexture" "skybox/sky_hs_02ft"
+	"$basetexture" "skybox/sky_hs_02ft"
+	"$nofog" 1
+	$ignorez 1
+}

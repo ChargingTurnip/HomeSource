@@ -125,3 +125,6 @@ forcetextureshadow props_foliage/ferns02.mdl
 forcetextureshadow props_foliage/ferns03.mdl
 forcetextureshadow props_forest/fern01.mdl
 forcetextureshadow props_forest/fern01lg.mdl
+
+noshadow crystal_blue.vmt
+noshadow crystal_blue2.vmt
