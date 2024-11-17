@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ice/icefloor_01"
+	"$envmap"  "ice/icefloor_01"
+	"$envmapmask" "ice/icefloor_01"
+	"$envmaptint" 0.25
+	"$fresnelreflection" 2
+	//"$envmapcontrast" 1
+	"$surfaceprop" "Ice"
+	"%keywords" "hs"
+
+	//"$color" 1.2
+
+	//"$detail" "ice/icefloor_02"
+	//"$detailscale" "1"
+	//"$detailblendfactor" .6
+	//"$detailblendmode" 0
+}

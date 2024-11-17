@@ -47,7 +47,7 @@
 		"TextureScroll"
 		{
 			"texturescrollvar" "$baseTextureTransform"
-			"texturescrollrate" "5"
+			"texturescrollrate" "6"
 			"texturescrollangle" "90.00"
 		}
 		"ConveyorScroll"

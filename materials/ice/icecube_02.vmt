@@ -1,0 +1,31 @@
+"Refract"
+{
+	//"$basetexture" "ice/icecube_02"
+	"$normalmap" "ice/icecube_02"
+
+	//"$envmap"  "ice/icecube_02"
+	//"$envmapmask" "ice/icecube_02"
+	//"$envmaptint" "[0.85 0.85 1]"
+	"$envmaptint" 0.125
+	//"$fresnelreflection" 2
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 0.5
+	"$surfaceprop" "Ice"
+	"%keywords" "hs"
+
+	//"$translucent" 1
+	"$refractamount" 0.25
+	//"$masked" 1
+	//"$refracttinttexture" "ice/icecube_02"
+	//"$fadeoutonsilhouette" 1
+	//"$forcealphawrite" 1
+	"$forcerefract" 1
+	"$bluramount" 2
+
+	//"$color" 1.2
+
+	//"$detail" "ice/icecube_02"
+	//"$detailscale" "1"
+	//"$detailblendfactor" 3
+	//"$detailblendmode" 0
+}

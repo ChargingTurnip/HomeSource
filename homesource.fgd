@@ -193,6 +193,7 @@
 	"A volumetric trigger that sets the players current checkpoint."
 [
 	spawnpoint(target_destination) : "Spawn Point" : "" : "Entity to use as origin for spawn point."
+	viewangles(vector) : "View Angles" : "-25 0 0" : "View angles to set upon respawn. Pitch Yaw Roll."
 ]
 
 @SolidClass base(CombineBallSpawners) = func_combine_ball_spawner :
