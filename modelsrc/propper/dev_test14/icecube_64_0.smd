@@ -1,0 +1,58 @@
+version 1
+nodes
+0 "root" -1
+end
+skeleton
+time 0
+0 0 0 0 0 0 0
+end
+triangles
+models/props_freezer/icecubes/overlays/icecube_face
+0 32 -32 32 0 0 1 9 -7 1 0 1
+0 32 32 32 0 0 1 9 -6 1 0 1
+0 -32 32 32 0 0 1 8 -6 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face
+0 -32 -32 32 0 0 1 8 -7 1 0 1
+0 32 -32 32 0 0 1 9 -7 1 0 1
+0 -32 32 32 0 0 1 8 -6 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face
+0 32 32 -32 0 0 -1 9 -5.5 1 0 1
+0 32 -32 -32 0 0 -1 9 -6.5 1 0 1
+0 -32 -32 -32 0 0 -1 8 -6.5 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face
+0 -32 32 -32 0 0 -1 8 -5.5 1 0 1
+0 32 32 -32 0 0 -1 9 -5.5 1 0 1
+0 -32 -32 -32 0 0 -1 8 -6.5 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 -32 -32 -32 -1 0 0 -7 1 1 0 1
+0 -32 -32 32 -1 0 0 -7 2 1 0 1
+0 -32 32 32 -1 0 0 -6 2 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 -32 32 -32 -1 0 0 -6 1 1 0 1
+0 -32 -32 -32 -1 0 0 -7 1 1 0 1
+0 -32 32 32 -1 0 0 -6 2 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 32 -32 32 1 0 0 -7 2 1 0 1
+0 32 -32 -32 1 0 0 -7 1 1 0 1
+0 32 32 -32 1 0 0 -6 1 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 32 32 32 1 0 0 -6 2 1 0 1
+0 32 -32 32 1 0 0 -7 2 1 0 1
+0 32 32 -32 1 0 0 -6 1 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 -32 32 -32 0 1 0 8 1 1 0 1
+0 -32 32 32 0 1 0 8 2 1 0 1
+0 32 32 32 0 1 0 9 2 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 32 32 -32 0 1 0 9 1 1 0 1
+0 -32 32 -32 0 1 0 8 1 1 0 1
+0 32 32 32 0 1 0 9 2 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 -32 -32 32 0 -1 0 8 2 1 0 1
+0 -32 -32 -32 0 -1 0 8 1 1 0 1
+0 32 -32 -32 0 -1 0 9 1 1 0 1
+models/props_freezer/icecubes/overlays/icecube_face2
+0 32 -32 32 0 -1 0 9 2 1 0 1
+0 -32 -32 32 0 -1 0 8 2 1 0 1
+0 32 -32 -32 0 -1 0 9 1 1 0 1
+end

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8866"
-	"mapversion" "0"
+	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ light_plus
 postprocess_plus
 {
 	"enable" "1"
-	"copied_from_controller" "0"
+	"copied_from_controller" "1"
 	"bloom_scale" "1"
 	"bloom_exponent" "2.5"
 	"bloom_saturation" "1"
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "0"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -122,6 +122,10 @@ entity
 	"rendermode" "0"
 	"spawnflags" "1024"
 	"spawnobject" "0"
+	connections
+	{
+		"OnBreak" "break_effect,Start,,0,-1"
+	}
 	solid
 	{
 		"id" "3"

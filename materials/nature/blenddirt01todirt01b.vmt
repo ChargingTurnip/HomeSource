@@ -1,0 +1,32 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/dirtground01"
+	"$basetexture2" "nature/dirtground01b"
+
+	//"$blendmodulatetexture" "nature/blenddirt01todirt01b_mask"
+
+	"$bumpmap" "nature/dirtground01_bump"
+	"$bumpmap2" "nature/dirtground01b_bump"
+	"%keywords" "hs"
+	"$surfaceprop" "dirt"
+
+      	//"$detail" "detail\rock_detail_01"
+	//"$detailscale" "0.25"
+	//"$detailblendfactor" "0.5"
+	//"$detailblendmode" 0
+
+        	//"$detail" "detail\rock_detail_01"
+	//"$detailscale" "0.25"
+	//"$detailblendfactor" "0.25"
+	//"$detailblendmode" 0
+
+        	//"$detail" "detail\splotch_detail_01"
+	//"$detailscale" "1"
+	//"$detailblendfactor" "2"
+	//"$detailblendmode" 0
+
+        	"$detail" "detail\rock_detail_02"
+	"$detailscale" "0.25"
+	"$detailblendfactor" "0.4"
+	"$detailblendmode" 0
+}

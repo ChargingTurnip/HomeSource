@@ -1,0 +1,30 @@
+
+
+
+materialPath: F:\SteamLibrary\steamapps\sourcemods\HomeSource\materials
+Loading F:\SteamLibrary\steamapps\sourcemods\HomeSource\mapsrc\instances\box_breakable_new_01.vmf
+fixing up env_cubemap materials on brush sides...
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (574 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 6
+Reduced 2 texdatas to 2 (35 bytes to 35)
+Writing F:\SteamLibrary\steamapps\sourcemods\HomeSource\mapsrc\instances\box_breakable_new_01.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\steamlibrary\steamapps\sourcemods\homesource\mapsrc\instances\box_breakable_new_01.bsp
+reading f:\steamlibrary\steamapps\sourcemods\homesource\mapsrc\instances\box_breakable_new_01.prt
+LoadPortals: couldn't read f:\steamlibrary\steamapps\sourcemods\homesource\mapsrc\instances\box_breakable_new_01.prt

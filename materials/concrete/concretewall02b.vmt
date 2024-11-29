@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/concretewall02b"
+	"$bumpmap" "concrete/concretewall02b_bump"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+	"$envmap" "envmaps/window_reflect_02"
+	$normalmapalphaenvmapmask 1
+
+	"$color" "0.75"
+
+        "$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+}

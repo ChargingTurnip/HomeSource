@@ -1,0 +1,10 @@
+"Refract_DX90"
+{
+	"$normalmap"		"ice/icecube_02"
+	"$envmaptint"		"0.125000"
+	"%keywords"		"hs"
+	"$refractamount"		"0.250000"
+	"$forcerefract"		"1"
+	"$bluramount"		"2"
+	"$model"		"1"
+}

@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dev/dev_crate_01"
+	"$bumpmap" "dev/dev_crate_01_bump"
+	"$surfaceprop" "Wood"
+	"%keywords" "hs"
+
+	"$color" "0.75"
+
+       	//"$detail" "detail\brush_detail_01"
+	//"$detailscale" "1"
+	//"$detailblendfactor" 4
+	//"$detailblendmode" 0
+}
