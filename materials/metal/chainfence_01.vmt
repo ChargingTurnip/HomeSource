@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/chainfence_01"
+	"$bumpmap" "metal/chainfence_01_bump"
+	"$surfaceprop"  "Chainlink"
+
+	"%keywords" "hs"
+	"$translucent" 1
+}

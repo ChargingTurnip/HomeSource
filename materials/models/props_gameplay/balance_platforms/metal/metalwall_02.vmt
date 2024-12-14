@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"metal/metalwall_02"
+	"$bumpmap"		"metal/metalwall_02_bump"
+	"$color2"		"[0.5 0.5 0.5]"
+	"%keywords"		"hs"
+	"$detail"		"detail\brush_detail_01"
+	"$detailscale"		"0.500000"
+	"$detailblendfactor"		"12"
+	"$detailblendmode"		"0"
+	"$model"		"1"
+}

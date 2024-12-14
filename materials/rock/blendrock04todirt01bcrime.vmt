@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "rock/rockterrain_04"
+	"$basetexture2" "nature/dirtground01b_crime"
+	"$basetexturetransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+
+	//"$blendmodulatetexture" "nature/blenddirt01todirt01b_mask"
+
+	"$bumpmap" "rock/rockterrain_01_ssbump"
+	"$bumpmap2" "nature/dirtground01b_ssbump"
+	"$ssbump" "1"
+	"%keywords" "hs"
+	"$surfaceprop" "rock"
+
+        	"$detail" "detail\rock_detail_02"
+	"$detailscale" "0.45"
+	"$detailblendfactor" "0.55"
+	"$detailblendmode" 0
+}

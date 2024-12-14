@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "nature/sandground01"
+	"$bumpmap" "nature/sandground01_bump"
+	"$surfaceprop" "dirt"
+	"%keywords" "hs"
+
+        	"$detail" "detail\rock_detail_02"
+	"$detailscale" "0.125"
+	"$detailblendfactor" "0.3"
+	"$detailblendmode" 0
+}

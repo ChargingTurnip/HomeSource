@@ -1631,6 +1631,7 @@
 [
 	spawnflags(Flags) = 
 	[
+		32 :  "Become Angry" : 0
 		65536 :  "No Dynamic Light" : 0
 		131072: "Strider Scout Scanner" : 0
 	]

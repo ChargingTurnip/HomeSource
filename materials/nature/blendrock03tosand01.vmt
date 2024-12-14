@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "rock/rockterrain_03"
+	"$basetexture2" "nature/sandground01"
+
+	"$bumpmap" "rock/rockterrain_03_bump"
+	"$bumpmap2" "nature/sandground01_bump"
+	"%keywords" "hs"
+	"$surfaceprop" "dirt"
+
+	"$detail" "detail\rock_detail_02"
+	"$detailscale" "0.125"
+	"$detailblendfactor" 0.35
+	"$detailblendmode" 0
+}
