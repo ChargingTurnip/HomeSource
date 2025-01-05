@@ -4761,3 +4761,33 @@
 	physdamagescale(float) : "Physics Impact Damage Scale" : "1.0" : "Scales damage energy when this object is hit by a physics object. NOTE: 0 means this feature is disabled for backwards compatibility.\nSet to 1.0 for materials as strong as flesh, smaller numbers indicate stronger materials."
 	mass(float) : "Mass" : "30.0" : "How heavy this object is."
 ]
+
+@PointClass base(Targetname) iconsprite("editor/ambient_generic.vmt") sphere() = ambient_fmod : "Universal ambient sound. Use it to play and control a single sound."
+[
+	message(sound) : "Sound Name" : "" : "Name of the GameSound entry for the sound to play. Also supports direct .wav filenames."
+	volume(float) : "Volume" : 1 : "Sound volume, expressed as a range from 0 to 1, where 1 is the loudest."
+
+	pitch(float) : "Pitch" : 100 : "Sound pitch, expressed as a range from 1 to 255, where 100 is the sound's default pitch."
+
+	maxdistance(float) : "Max Audible Distance" : "1250" : "Maximum distance at which this sound is audible."
+
+	spawnflags(flags) =
+	[
+		1: "Play everywhere" : 0
+		16:"Start Silent": 1
+		32:"Is NOT Looped": 1
+		64:"Is Music": 0
+	]
+	SourceEntityName(target_destination) : "SourceEntityName" : : "If an entity is specified, sound will come from this named entity instead of the location of ambient_generic."
+
+	// Inputs
+	input Pitch(float) : "Sets the sound pitch, expressed as a range from 1 to 255, where 100 is the sound's default pitch."
+	input IncreasePitch(float) : "Increases the sound pitch."
+	input DecreasePitch(float) : "Decreases the sound pitch."
+	input PlaySound(void) : "Starts the sound."
+	input StopSound(void) : "Stops the sound if it is playing."
+	input SetVolume(float) : "Sets the sound volume, expressed as a range from 0 to 1, where 1 is the loudest."
+	input IncreaseVolume(float) : "Increases the sound volume."
+	input DecreaseVolume(float) : "Decreases the sound volume."
+	input SetMusicSpeed(float) : "Sets the music speed."
+]

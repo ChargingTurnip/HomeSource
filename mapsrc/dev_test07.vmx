@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8866"
-	"mapversion" "59"
+	"editorbuild" "8869"
+	"mapversion" "61"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "59"
+	"mapversion" "61"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1393,7 +1393,7 @@ world
 				"v" "416 2048 -1024"
 				"v" "1504 2048 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 247.742] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -1411,7 +1411,7 @@ world
 				"v" "1504 896 -1024"
 				"v" "416 896 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[1 0 0 -384] 0.5"
 			"vaxis" "[0 0 -1 -256] 0.5"
 			"rotation" "0"
@@ -1429,7 +1429,7 @@ world
 				"v" "1504 2048 -1024"
 				"v" "1504 896 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0 -1 0 -256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1447,7 +1447,7 @@ world
 				"v" "384 928 -1024"
 				"v" "384 2016 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0 -1 0 49.5482] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -1465,7 +1465,7 @@ world
 				"v" "384 2016 -1024"
 				"v" "416 2048 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-0.707107 -0.707107 0 403.773] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -1483,7 +1483,7 @@ world
 				"v" "416 896 -1024"
 				"v" "384 928 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -2219,7 +2219,7 @@ world
 				"v" "288 2256 -1024"
 				"v" "384 2256 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 66.27] 0.5"
 			"vaxis" "[1 0 0 0] 0.1875"
 			"rotation" "0"
@@ -2291,7 +2291,7 @@ world
 				"v" "288 2256 -1024"
 				"v" "288 0 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2337,7 +2337,7 @@ world
 				"v" "1472 2256 -1024"
 				"v" "1472 2048 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 78.0852] 0.4062"
 			"vaxis" "[1 0 0 -256] 0.5"
 			"rotation" "0"
@@ -2455,7 +2455,7 @@ world
 				"v" "384 896 -1024"
 				"v" "1472 896 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 256] 0.5"
 			"vaxis" "[1 0 0 -256] 0.5"
 			"rotation" "0"
@@ -2573,7 +2573,7 @@ world
 				"v" "1472 2048 -1024"
 				"v" "1472 896 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 78.0852] 0.4062"
 			"vaxis" "[1 0 0 -256] 0.5"
 			"rotation" "0"
@@ -2691,7 +2691,7 @@ world
 				"v" "288 2256 -1040"
 				"v" "288 0 -1040"
 			}
-			"material" "CONCRETE/CONCRETEFLOOR_01"
+			"material" "CONCRETE/CONCRETEFLOOR_01B"
 			"uaxis" "[0 1 0 64] 1"
 			"vaxis" "[1 0 0 -448] 1"
 			"rotation" "0"
@@ -2809,7 +2809,7 @@ world
 				"v" "-288 2256 -1024"
 				"v" "-192 2256 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 66.27] 0.5"
 			"vaxis" "[1 0 0 0] 0.1875"
 			"rotation" "0"
@@ -2899,7 +2899,7 @@ world
 				"v" "-192 -0 -1024"
 				"v" "-192 2256 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2967,7 +2967,7 @@ world
 				"v" "-1408 1600 -1024"
 				"v" "-1376 1632 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[1 0 0 -313.807] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -2985,7 +2985,7 @@ world
 				"v" "-320 2240 -1024"
 				"v" "-352 2208 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 462.452] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3021,7 +3021,7 @@ world
 				"v" "-288 1632 -1024"
 				"v" "-320 1664 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0 1 0 214.709] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3039,7 +3039,7 @@ world
 				"v" "-320 1600 -1024"
 				"v" "-352 1632 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0.707107 0.707107 0 -450.631] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3057,7 +3057,7 @@ world
 				"v" "-288 2208 -1024"
 				"v" "-320 2176 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 462.452] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3125,7 +3125,7 @@ world
 				"v" "-1408 896 -1024"
 				"v" "-1376 928 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[1 0 0 -313.807] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3143,7 +3143,7 @@ world
 				"v" "-320 1536 -1024"
 				"v" "-352 1504 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 313.806] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3179,7 +3179,7 @@ world
 				"v" "-288 928 -1024"
 				"v" "-320 960 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0 1 0 66.0643] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3197,7 +3197,7 @@ world
 				"v" "-320 896 -1024"
 				"v" "-352 928 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0.707107 0.707107 0 -193.7] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3215,7 +3215,7 @@ world
 				"v" "-288 1504 -1024"
 				"v" "-320 1472 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 313.806] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3283,7 +3283,7 @@ world
 				"v" "-1408 128 -1024"
 				"v" "-1376 160 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[1 0 0 -313.807] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3301,7 +3301,7 @@ world
 				"v" "-320 768 -1024"
 				"v" "-352 736 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 198.193] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3337,7 +3337,7 @@ world
 				"v" "-288 160 -1024"
 				"v" "-320 192 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0 1 0 -49.549] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3355,7 +3355,7 @@ world
 				"v" "-320 128 -1024"
 				"v" "-352 160 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[0.707107 0.707107 0 -425.412] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -3373,7 +3373,7 @@ world
 				"v" "-288 736 -1024"
 				"v" "-320 704 -800"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01C"
 			"uaxis" "[-1 0 0 198.193] 1.9375"
 			"vaxis" "[0 0 -1 51.2] 1.25"
 			"rotation" "0"
@@ -6787,7 +6787,7 @@ world
 				"v" "-288 2256 -1024"
 				"v" "-288 0 -1024"
 			}
-			"material" "CONCRETE/CONCRETEWALL01B"
+			"material" "CONCRETE/CONCRETEWALL01D"
 			"uaxis" "[0 1 0 -433.978] 0.4062"
 			"vaxis" "[1 0 0 192] 0.5"
 			"rotation" "0"
@@ -6893,7 +6893,7 @@ world
 	}
 	solid
 	{
-		"id" "2981"
+		"id" "3274"
 		side
 		{
 			"id" "2635"
@@ -7004,7 +7004,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -7012,7 +7012,7 @@ world
 	}
 	solid
 	{
-		"id" "2979"
+		"id" "3272"
 		side
 		{
 			"id" "2641"
@@ -7123,7 +7123,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -7131,7 +7131,7 @@ world
 	}
 	solid
 	{
-		"id" "2977"
+		"id" "3270"
 		side
 		{
 			"id" "2647"
@@ -7242,7 +7242,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -7250,7 +7250,7 @@ world
 	}
 	solid
 	{
-		"id" "2975"
+		"id" "3268"
 		side
 		{
 			"id" "2653"
@@ -7361,7 +7361,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -7369,7 +7369,7 @@ world
 	}
 	solid
 	{
-		"id" "2973"
+		"id" "3266"
 		side
 		{
 			"id" "2659"
@@ -7480,7 +7480,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -7488,7 +7488,7 @@ world
 	}
 	solid
 	{
-		"id" "2971"
+		"id" "3264"
 		side
 		{
 			"id" "2665"
@@ -7599,7 +7599,7 @@ world
 		}
 		editor
 		{
-			"color" "0 182 119"
+			"color" "0 240 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -8457,6 +8457,7 @@ entity
 		"OnMapSpawn" "view_controller,Enable,,0,-1"
 		"OnMapSpawn" "command,Command,r_camera_cinematic 0,0,-1"
 		"OnMapSpawn" "music,PlaySound,,0,-1"
+		"OnMapSpawn" "zoom,Zoom,,0,-1"
 	}
 	"origin" "240 2899.35 133.2"
 	editor
@@ -9716,6 +9717,23 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "2967"
+	"classname" "env_zoom"
+	"FOV" "75"
+	"Rate" "0"
+	"spawnflags" "0"
+	"targetname" "zoom"
+	"origin" "208 3024 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

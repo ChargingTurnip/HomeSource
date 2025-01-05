@@ -1,0 +1,20 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/hs_part_dustpuff"
+	"$translucent" 1
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"%keywords" "hs"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 2.00
+		}
+	}
+
+
+}
