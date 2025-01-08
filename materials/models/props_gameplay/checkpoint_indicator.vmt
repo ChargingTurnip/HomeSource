@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props_gameplay\checkpoint_indicator"
+	"$translucent" 1
+}
