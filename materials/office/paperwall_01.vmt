@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "office/paperwall_01"
+	"$bumpmap" "office/paperwall_01_bump"
+	"$surfaceprop"  "Paper"
+
+	"%keywords" "hs"
+	
+	"$color" 2
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+}

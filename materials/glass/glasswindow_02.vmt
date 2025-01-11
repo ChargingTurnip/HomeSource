@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/glasswindow_02"
+	"$bumpmap" "glass/glasswindow_02_bump"
+	"$surfaceprop"  "Glass"
+	"$translucent" 1
+
+	"%keywords" "hs"
+	
+	"$envmap" "envmaps/window_reflect_02"
+	//"$envmapmask" "glass/glasswindow_02_mask"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" 10
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 4
+	"$detailblendmode" 0
+}
