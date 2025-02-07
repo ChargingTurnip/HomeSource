@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"metal/metalwall_03"
+	"$color"		"[.75 .75 .75]"
+	"%keywords"		"hs"
+	"$detail"		"detail\brush_detail_01"
+	"$detailscale"		"0.400000"
+	"$detailblendfactor"		"6"
+	"$detailblendmode"		"0"
+	"$model"		"1"
+}

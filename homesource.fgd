@@ -4791,3 +4791,34 @@
 	input DecreaseVolume(float) : "Decreases the sound volume."
 	input SetMusicSpeed(float) : "Sets the music speed."
 ]
+
+@PointClass base(Targetname) studioprop() = prop_softcrate : 
+	"Soft Crate"
+[
+	model(studio) : "World model" : "models/props_gameplay/softcrates/softcrate_01.mdl"
+	effect_name(string) : "Particle System Name" : "striderbuster_break_flechette"
+	sound(sound) : "Destruction Sound" : "Breakable.Crate"
+	entity(string) : "Entity To Spawn On Destruction"
+]
+
+@PointClass base(Targetname) studioprop() = prop_hopcrate : 
+	"Hop Crate"
+[
+	model(studio) : "World model" : "models/props_gameplay/hopcrates/hopcrate_01.mdl"
+	effect_name(string) : "Particle System Name" : "striderbuster_break_flechette"
+	sound(sound) : "Destruction Sound" : "Breakable.Crate"
+	entity(string) : "Entity To Spawn On Destruction"
+	physics(choices) : "Enable Physics" : 0 : "" = 
+	[
+		0: "No"
+		1: "Yes"
+	]
+]
+
+@PointClass base(Targetname) studioprop() = prop_detocrate : 
+	"DetoCrate"
+[
+	model(studio) : "World model" : "models/props_gameplay/detocrates/detocrate_01.mdl"
+	effect_name(string) : "Particle System Name" : "explosion_turret_break"
+	sound(sound) : "Destruction Sound" : "BaseExplosionEffect.Sound"
+]

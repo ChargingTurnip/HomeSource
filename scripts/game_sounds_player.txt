@@ -50,3 +50,19 @@
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/dive.wav"
 }
+
+"Player.LongJump"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.5"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"		"player/longjump.wav"
+}
+
+"Player.FieldJump"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.5"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"		"player/fieldjump.wav"
+}

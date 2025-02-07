@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"detocrate2"
+
+	"Proxies"
+	{	
+		"Sine"
+		{
+			sinemin 2
+			sinemax 4
+			resultVar $color
+		}
+	}
+}

@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"detocrate2"
+	"$selfillum" 1
+	"$selfillumtint" "0.5"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sinemin"		"3"
+			"sinemax"		"12"
+			"resultVar"		"$color2"
+		}
+	}
+	"$model"		"1"
+}
