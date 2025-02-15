@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "dev/gradient_white"
+	"$translucent" 1
+	"%keywords" "hs"
+}
