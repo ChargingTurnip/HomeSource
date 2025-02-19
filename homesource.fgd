@@ -4822,3 +4822,210 @@
 	effect_name(string) : "Particle System Name" : "explosion_turret_break"
 	sound(sound) : "Destruction Sound" : "BaseExplosionEffect.Sound"
 ]
+
+@PointClass base(Targetname) = logic_camera_override : "Camera Override"
+[		
+	startenabled(choices) : "Start Enabled" : 0 : "Should the camera be overridden on mapspawn?" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	firstperson(choices) : "Camera Mode" : 0 : "Camera mode that the player is forced into." =
+	[
+		0 : "Thirdperson"
+		1 : "Firstperson"
+	]
+
+	disablecinematic(choices) : "Disable Cinematic Camera" : 0 : "Disable camera lag." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	forcecameraangle(choices) : "Force Camera Angle" : 0 : "Should the camera be forced into a specific angle?" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	holdtime(float) : "Hold Time" : 0 : "How long the camera should be overridden. -1 = until the end of time."
+
+	originspeed(float) : "Origin Speed (Cinematic)" : -1 : "How fast the camera position should move in cinematic mode. 1 = aligned to player, 0 = stationary, -1 = unaffected."
+	anglesspeed(float) : "Angles Speed (Cinematic)" : -1 : "How fast the camera angles should move in cinematic mode. 1 = aligned to player, 0 = stationary, -1 = unaffected."
+
+	cameraangle(angle) : "Camera Angle" : "0 0 0" : "Angles the camera will be locked to if Force Camera Angle is set."
+
+	angleparent(target_destination) : "Angle Parent" : "" : "Entity the camera will inherit angles from. Overrides Camera Angle if set."
+	angleparentoffset(angle) : "Angle Parent Offset" : "0 0 0" : "Offset applied to the angles inherited from the Angle Parent."
+
+	input Enable(void) : "Enable camera override."
+	input Disable(void) : "Disable camera override."
+
+	input SetHoldTime(float) : "Set hold time."
+
+	input EnableLockedCameraAngle(void) : "Enable camera angle override."
+	input DisableLockedCameraAngle(void) : "Disable camera angle override."
+
+	input EnableCinematicCamera(void) : "Enable camera lag."
+	input DisableCinematicCamera(void) : "Disable camera lag."
+
+	input SetAnglesSpeed(float) : "Set angles speed (cinematic)."
+	input SetOriginSpeed(float) : "Set origin speed (cinematic)."
+
+	input SetCameraAngle(vector) : "Set camera angle override."
+
+	input SetAngleParent(target_destination) : "Set entity to inherit angles from."
+	input SetAngleParentOffset(vector) : "Set an offset to the angles inherited from the angle parent."
+
+	input ForceFirstPerson(void) : "Force firstperson."
+	input ForceThirdPerson(void) : "Force thirdperson."
+
+	output OnFinished(void) : "Fired when hold time ends or when disabled."
+]
+
+@PointClass base(Targetname) = env_instructor_hint : "An entity that allows for creation and control of instructor lessons by map logic"
+[
+	hint_replace_key(string) : "Replace Key" : : "Unique name so that messages with the same key will replace each other."
+	hint_target(target_destination) : "Target Entity" : : "The entity to show this hint on top of. The entity used must exist on the client, info_target_instructor_hint can be parented to server only entities for this purpose."
+	hint_static(Choices) : "Positioning" : 0 : "Either show at the position of the Target Entity. Or show the hint directly on the hud at a fixed position." =
+	[
+		0 : "Follow the Target Entity"
+		1 : "Show on the hud"
+	]
+	
+	hint_allow_nodraw_target(Choices) : "Allow invisible target" : 1 : "Do we allow the hint to follow entites with nodraw set?" =
+	[
+		0 : "End immediately on nodraw"
+		1 : "Yes"
+	]
+	
+	hint_caption(string) : "Caption" : : "The text of your hint."
+	hint_activator_caption(string) : "Activator Caption" : : "The text of your hint shown to only the activating player."
+	hint_color(color255) : "Caption Color" : "255 255 255" : "The color of the caption text"
+	hint_background_color(color255) : "Background Color" : "255 255 255" : "The color of the caption background"
+	hint_border_color(color255) : "Border Color" : "0 0 0" : "The color of the caption border"
+	hint_forcecaption(Choices) : "Force caption" : 0 : "Do we show the caption text even if the hint is occluded by a wall?" =
+	[
+		0 : "No"
+		1 : "Show when occluded"
+	]
+	
+	hint_icon_onscreen(Choices) : "Onscreen Icon" : "icon_tip" : "The icon to use when the hint is within the player's view." =
+	[
+		"icon_bulb" : "icon_bulb"
+		"icon_caution" : "icon_caution"
+		"icon_alert" : "icon_alert"
+		"icon_alert_red" : "icon_alert_red"
+		"icon_tip" : "icon_tip"
+		"icon_skull" : "icon_skull"
+		"icon_no" : "icon_no"
+		"icon_run" : "icon_run"
+		"icon_interact" : "icon_interact"
+		"icon_button" : "icon_button"
+		"icon_door" : "icon_door"
+		"icon_arrow_plain" : "icon_arrow_plain"
+		"icon_arrow_plain_white_dn" : "icon_arrow_plain_white_dn"
+		"icon_arrow_plain_white_up" : "icon_arrow_plain_white_up"
+		"icon_arrow_up" : "icon_arrow_up"
+		"icon_arrow_right" : "icon_arrow_right"
+		"icon_fire" : "icon_fire"
+		"icon_present" : "icon_present"
+		"use_binding" : "show key bindings"
+	]
+	
+	hint_icon_offscreen(Choices) : "Offscreen Icon" : "icon_tip" : "The icon to use when the hint is outside the player's view." =
+	[
+		"icon_bulb" : "icon_bulb"
+		"icon_caution" : "icon_caution"
+		"icon_alert" : "icon_alert"
+		"icon_alert_red" : "icon_alert_red"
+		"icon_tip" : "icon_tip"
+		"icon_skull" : "icon_skull"
+		"icon_no" : "icon_no"
+		"icon_run" : "icon_run"
+		"icon_interact" : "icon_interact"
+		"icon_button" : "icon_button"
+		"icon_door" : "icon_door"
+		"icon_arrow_plain" : "icon_arrow_plain"
+		"icon_arrow_plain_white_dn" : "icon_arrow_plain_white_dn"
+		"icon_arrow_plain_white_up" : "icon_arrow_plain_white_up"
+		"icon_arrow_up" : "icon_arrow_up"
+		"icon_arrow_right" : "icon_arrow_right"
+		"icon_fire" : "icon_fire"
+		"icon_present" : "icon_present"
+	]
+	
+	hint_nooffscreen(Choices) : "Show offscreen" : 0 : "When the hint is offscreen, do we show an icon and arrow?" =
+	[
+		0 : "Show"
+		1 : "Don't show"		
+	]
+	
+	hint_binding(string) : "Bound Command" : : "If using 'show key bindings' for the onscreen icon, this field should be the command we want to show bindings for"
+	hint_icon_offset(float) : "Icon Height Offset" : 0 : "A height offset from the target entity's origin to display the hint"
+	hint_bubble_mode(integer) : "Bubble Mode" : 0 : "The background for the hint. 0 = No background, 1 = Background, 2 = Background with pointer."
+	hint_background_alpha(float) : "Background Alpha" : 1 : "The alpha for the hint background"
+	hint_border_alpha(float) : "Border Alpha" : 1 : "The alpha for the hint background border"
+	hint_pointer_offset(float) : "Pointer Height Offset" : -32 : "A height offset from the target entity's origin to display the hint pointer"
+
+	hint_border_thickness(integer) : "Border Thickness" : 3 : "The thickness for the hint background border."
+	hint_icon_offsetx(float) : "Icon X Offset" : 0 : "An X offset from the target entity's origin to display the hint"
+	hint_disable_popup(boolean) : "Disable Pop Up" : "No" : "Disable the pop up animation on the hud."
+
+	hint_pulseoption(Choices) : "Size Pulsing" : 0 : "The icon size can pulsate" =
+	[
+		0 : "No Pulse"
+		1 : "Slow Pulse"
+		2 : "Fast Pulse"
+		3 : "Urgent Pulse"
+	]
+	
+	hint_alphaoption(Choices) : "Alpha Pulsing" : 0 : "The icon alpha can pulsate" =
+	[
+		0 : "No Pulse"
+		1 : "Slow Pulse"
+		2 : "Fast Pulse"
+		3 : "Urgent Pulse"
+	]
+	
+	hint_shakeoption(Choices) : "Shaking" : 0 : "The icon can shake" =
+	[
+		0 : "No Shaking"
+		1 : "Narrow Shake"
+		2 : "Wide Shake"
+	]
+
+	hint_local_player_only(boolean) : "Only Local Player" : "No" : "The hint will only be shown to the local player."
+	
+	hint_timeout(integer) : "Timeout" : 0 : "The automatic timeout for the hint. 0 will persist until stopped with EndHint."
+	hint_range(float) : "Display Range" : 0 : "The visible range of the hint."	
+	
+	input ShowHint(string) : "Start showing the hint. If an entity name is passed as a parameter, the hint is shown only to that entity."	
+	input EndHint(void) : "Stop showing the hint if it hasn't already timed out."
+]
+
+@PointClass base(Targetname,Parentname) = info_target_instructor_hint : "A generic target that gets replicated to the client for hud hint targeting"
+[
+
+]
+
+@PointClass base(Targetname) = logic_lesson_start : "Lesson Start"
+[		
+	lesson(string) : "Lesson" : "" : "Lesson to start. Lessons can be found in scripts/instructor_lessons.txt."
+
+	input StartLesson(void) : "Start lesson."
+
+	output OnStart(void) : "Fired when lesson is started."
+]
+
+@PointClass base(Targetname) = logic_cutscene : "Cutscene Player"
+[		
+	cutscene(string) : "Cutscene Name" : "" : "Prefix for logic_relays to look for. Assumes each relay name ends with page number. Starts at 0."
+
+	input StartCutscene(void) : "Start Cutscene."
+	input StopCutscene(void) : "Stop Cutscene."
+	input ReadyForInput(void) : "Ready For Input."
+
+	output OnFinished(void) : "Fired when StopCutscene is fired."
+]

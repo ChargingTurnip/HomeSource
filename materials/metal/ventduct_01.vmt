@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/ventduct_01"
+	"$bumpmap" "metal/ventduct_01_bump"
+	"$surfaceprop"  "metal"
+
+	"%keywords" "hs"
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.5"
+	"$detailblendfactor" 4
+	"$detailblendmode" 0
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/concretewall03b"
+	//"$bumpmap" "concrete/concretewall01_bump"
+	"$bumpmap" "bumpmaps/wall_bump01"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+
+    	 "$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+}

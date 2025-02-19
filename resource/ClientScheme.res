@@ -87,6 +87,40 @@ Scheme
 	{
 		// fonts are used in order that they are listed
 		// fonts are used in order that they are listed
+		SuperComic
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
+		SuperComicSmall
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
+		SuperComicSmallOutline
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"24"
+				"weight"	"0"
+				"outline" "1"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
 		"DebugFixed"
 		{
 			"1"
@@ -784,6 +818,73 @@ Scheme
 			}
 			
 		}
+		"InstructorTitle"
+		{
+			"1"
+			{
+				//"Name"			"Trade Gothic"
+				"Name"			"Super Comic"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+			}
+		}
+		"InstructorTitle_ss"
+		{
+			"1"
+			{
+				"Name"			"Trade Gothic"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+			}
+		}
+		"InstructorTitleGlow"
+		{
+			"1"
+			{
+				"Name"			"Trade Gothic"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+				"blur"	"2"
+			}
+		}
+		"InstructorTitleGlow_ss"
+		{
+			"1"
+			{
+				"Name"			"Trade Gothic"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+				"blur"	"2"
+			}
+		}
+		InstructorButtons
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.65"
+				"scaley"	"0.65"
+			}
+		}
+		"InstructorKeyBindings"
+		{
+			"1"
+			{
+				"name"		"Trade Gothic"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 
 	
@@ -795,6 +896,7 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"	"resource/HL2EP2.ttf"		
+		"4"	"resource/Super Comic.ttf"	
 	}
 
 }

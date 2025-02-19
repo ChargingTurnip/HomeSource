@@ -4,18 +4,40 @@
 	{
 		"fieldName"		"HudHealth"
 		"xpos"	"16"
-		"ypos"	"16"
+		"ypos"	"-2"
 		"wide"	"202"
-		"tall"  "36"
+		"tall"  "100"
 		"visible" "1"
 		"enabled" "1"
 
-		"PaintBackgroundType"	"2"
-		
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "50"
-		"digit_ypos" "2"
+		"font"	"SuperComicSmallOutline"
+		"text_xpos"	"4"
+		"text_ypos" "70"
+		"TextColor"	"255 255 255 255"
+
+		"shadowfont"	"SuperComicSmall"
+		"shadowtext_xpos"	"7"
+		"shadowtext_ypos" "73"
+		"ShadowTextColor"	"0 0 0 200"
+
+		"bg1_wide" "158"
+		"bg1_tall" "30"
+		"bg1_y" "40"
+		"bg1_type" "1"
+
+		"bg2_wide" "100"
+		"bg2_tall" "16"
+		"bg2_y" "78"
+		"bg2_type" "1"
+
+		"health_xpos"	"0"
+		"health_ypos" "4"
+		"health_spacing" "40"
+		"health_wide"	"64"
+		"health_tall" "64"
+
+		"shadowhealth_xpos"	"3"
+		"shadowhealth_ypos" "3"
 	}
 	
 	HudSuit
