@@ -121,6 +121,17 @@ Scheme
 				"custom"	"1"
 			}
 		}
+		ComicNote
+		{
+			"1"
+			{
+				"name"		"Comic Note"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
 		"DebugFixed"
 		{
 			"1"
@@ -823,7 +834,7 @@ Scheme
 			"1"
 			{
 				//"Name"			"Trade Gothic"
-				"Name"			"Super Comic"
+				"Name"			"Comic Note"
 				"tall"			"16"
 				"weight"	"100"
 				"antialias" "1"
@@ -897,6 +908,7 @@ Scheme
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"	"resource/HL2EP2.ttf"		
 		"4"	"resource/Super Comic.ttf"	
+		"5"	"resource/ComicNoteSmooth.ttf"	
 	}
 
 }

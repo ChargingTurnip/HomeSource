@@ -21,48 +21,48 @@
 
 "Player.Skid"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.5"
+	"pitch"			"90,110"
+	"volume"		"0.35,0.6"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/skid.wav"
 }
 
 "Player.Jump"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.5"
+	"pitch"			"90,110"
+	"volume"		"0.35,0.6"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/jump.wav"
 }
 
 "Player.SlideKick"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.5"
+	"pitch"			"90,110"
+	"volume"		"0.35,0.6"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/slidekick.wav"
 }
 
 "Player.Dive"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.25"
+	"pitch"			"90,110"
+	"volume"		"0.2,0.45"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/dive.wav"
 }
 
 "Player.LongJump"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.5"
+	"pitch"			"90,110"
+	"volume"		"0.35,0.6"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/longjump.wav"
 }
 
 "Player.FieldJump"
 {
-	"pitch"			"PITCH_NORM"
-	"volume"		"0.5"
+	"pitch"			"90,110"
+	"volume"		"0.35,0.6"
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/fieldjump.wav"
 }

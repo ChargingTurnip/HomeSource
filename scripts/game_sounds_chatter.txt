@@ -1,0 +1,45 @@
+// Physics Sounds
+//
+//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//   uses CHAN_STATIC in others, so I didn't specify a channel here
+//  Volume is determined procedurally by the physics code
+//
+
+"Chatter.Popup"
+{
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"0.40"
+	"pitch"			"160"
+
+	"wave"		"chatter/popup.wav"
+
+}
+"Chatter.PopupEnd"
+{
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"0.40"
+	"pitch"			"140"
+
+	"wave"		"chatter/popupend.wav"
+
+}
+
+"Chatter.Bip01"
+{
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"0.40"
+	"pitch"			"90,130"
+	"rndwave"
+	{
+		"wave"		"chatter/bip01/chatter0.wav"
+		"wave"		"chatter/bip01/chatter1.wav"
+		"wave"		"chatter/bip01/chatter2.wav"
+		"wave"		"chatter/bip01/chatter3.wav"
+		"wave"		"chatter/bip01/chatter4.wav"
+		"wave"		"chatter/bip01/chatter5.wav"
+		"wave"		"chatter/bip01/chatter6.wav"
+		"wave"		"chatter/bip01/chatter7.wav"
+		"wave"		"chatter/bip01/chatter8.wav"
+		"wave"		"chatter/bip01/chatter9.wav"
+	}
+}

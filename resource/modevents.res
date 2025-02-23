@@ -47,10 +47,14 @@
 		"hint_background_alpha"			"float"
 		"hint_border_alpha"			"float"
 		"hint_pointer_offset"			"float"	
+		"hint_pointer_offsetx"			"float"	
 
 		"hint_border_thickness"			"short"
 		"hint_icon_offsetx"			"float"	
 		"hint_disable_popup"			"bool"
+		"hint_disable_graphic"			"bool"
+
+		"hint_scroll_delay"			"float"	
 
 		"hint_range"				"float"		// range before the hint is culled
 		"hint_flags"				"long"		// hint flags

@@ -4968,6 +4968,7 @@
 	hint_background_alpha(float) : "Background Alpha" : 1 : "The alpha for the hint background"
 	hint_border_alpha(float) : "Border Alpha" : 1 : "The alpha for the hint background border"
 	hint_pointer_offset(float) : "Pointer Height Offset" : -32 : "A height offset from the target entity's origin to display the hint pointer"
+	hint_pointer_offsetx(float) : "Pointer X Offset" : 0 : "An X offset from the target entity's origin to display the hint pointer"
 
 	hint_border_thickness(integer) : "Border Thickness" : 3 : "The thickness for the hint background border."
 	hint_icon_offsetx(float) : "Icon X Offset" : 0 : "An X offset from the target entity's origin to display the hint"
@@ -5000,6 +5001,23 @@
 	
 	hint_timeout(integer) : "Timeout" : 0 : "The automatic timeout for the hint. 0 will persist until stopped with EndHint."
 	hint_range(float) : "Display Range" : 0 : "The visible range of the hint."	
+
+	hint_scroll_delay(float) : "Text Scroll Delay" : "0.025" : "Delay between letters sequentially appearing on the hint"
+
+	hint_disable_graphic(boolean) : "Disable Icon Graphic" : "No" : "Don't draw the icon graphic. Centers hint text."
+
+	sound_mode(Choices) : "Sound Mode" : 0 : "What sounds to play." =
+	[
+		0 : "No Sounds"
+		1 : "Popup sounds"
+		2 : "Popup and chatter sounds"
+		3 : "Chatter sounds"
+	]
+	chat_length(integer) : "Chatter Length" : -1 : "How many chatter sounds should be played. -1 = length of caption. -2 = half the length of caption. -3 = third the length of caption. -4 = fourth the length of caption."
+	chat_delay(float) : "Chatter Delay" : "0.075" : "Delay between chatter sounds."
+	chat_script(sound) : "Chatter Sound" : "Chatter.Bip01" : "Chatter sound to play."
+	pop_script(sound) : "Popup Sound" : "Chatter.Popup" : "Sound to play on popup."
+	popend_script(sound) : "Popup End Sound" : "Chatter.PopupEnd" : "Sound to play on popup end."
 	
 	input ShowHint(string) : "Start showing the hint. If an entity name is passed as a parameter, the hint is shown only to that entity."	
 	input EndHint(void) : "Stop showing the hint if it hasn't already timed out."
