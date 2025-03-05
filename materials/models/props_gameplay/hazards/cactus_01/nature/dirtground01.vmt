@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"nature/dirtground01"
+	"%keywords"		"hs"
+	"$detail"		"detail\rock_detail_01"
+	"$detailscale"		"0.500000"
+	"$detailblendfactor"		"0.250000"
+	"$detailblendmode"		"0"
+	"$model"		"1"
+}

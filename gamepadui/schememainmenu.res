@@ -13,9 +13,9 @@
 		"Buttons.OffsetY.InGame"				"25"
 		"Buttons.Space"						"2"
 	
-		"Button.Width.Out"						"260"
-		"Button.Width.Over"					"260"
-		"Button.Width.Pressed"					"260"
+		"Button.Width.Out"					"280"
+		"Button.Width.Over"					"280"
+		"Button.Width.Pressed"					"280"
 
 		"Button.Height.Out"					"30"
 		"Button.Height.Over"				"36"

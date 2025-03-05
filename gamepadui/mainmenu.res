@@ -8,13 +8,13 @@
 		"family"		"ingame"
 	}
 
-	//"ReturnCheckpoint"
-	//{
-	//	"text"			"#GameUI_GameMenu_ReturnCheckpoint"
-	//	"command"		"cmd unpause; load checkpointsave"
-	//	"priority"		"7"
-	//	"family"		"ingame"
-	//}
+	"ReturnCheckpoint"
+	{
+		"text"			"#GameUI_GameMenu_ReturnCheckpoint"
+		"command"		"cmd reload"
+		"priority"		"7"
+		"family"		"ingame"
+	}
 	
 	"NewGame"
 	{

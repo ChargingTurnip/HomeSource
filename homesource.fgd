@@ -5047,3 +5047,17 @@
 
 	output OnFinished(void) : "Fired when StopCutscene is fired."
 ]
+
+@PointClass base(BaseDriveableVehicle, Parentname) studioprop() = prop_vehicle_jackhammer :
+	"Jackhammer that the player can ride on."
+[
+	model(studio) : "World model" : "models/vehicles/prisoner_pod.mdl"
+	vehiclescript(string) : "Vehicle Script File" : "scripts/vehicles/jackhammer.txt"
+
+	input EnterVehicle(void) : "Forces the activator (or player) into the pod."
+	input EnterVehicleImmediate(void) : "Forces the activator (or player) into the pod without enter/exit animations."
+	input ExitVehicle(void) : "Boots the prisoner out of the pod."
+	
+	output OnOpen(void) : "Fired when the pod is open enough to enter."
+	output OnClose(void) : "Fired when the pod too closed to enter."
+]

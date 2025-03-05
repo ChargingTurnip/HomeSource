@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"			"hud/cutscenes/cinematic"
+	"$translucent" 1
+}

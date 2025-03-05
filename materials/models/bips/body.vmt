@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\bips\body"
-	"$bumpmap" "models\bips\body_normal"
+	//"$bumpmap" "models\bips\body_normal"
 
 	"$phong" "1"
 	"$phongexponent" "20"

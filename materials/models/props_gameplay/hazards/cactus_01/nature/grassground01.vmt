@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"nature/grassground01"
+	"%keywords"		"hs"
+	"$detail"		"detail\noise_detail_01"
+	"$detailscale"		"2"
+	"$detailblendfactor"		"0.600000"
+	"$detailblendmode"		"0"
+	"$model"		"1"
+}

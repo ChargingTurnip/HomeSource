@@ -1,13 +1,14 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\player\body"
-	"$bumpmap" "models\player\body_normal"
+	//"$bumpmap" "models\player\body_normal"
+	//"$envmap" "environment maps\borealis_003"
 
 	"$phong" "1"
 	"$phongexponent" "20"
 	"$phongboost" ".3"	
 	"$lightwarptexture" "models/player/player_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
+	//"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "0"
 
 	// Rim lighting parameters
