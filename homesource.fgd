@@ -4698,7 +4698,7 @@
 	input SetRadius(vector) : "Sets a new radius and time to interpolate to it(as a vector <Size> <Time in Seconds>)."
 ]
 
-@PointClass base(Item) studio("models/items/money_pickup.mdl") = money_pickup : "Money Pickup" []
+//@PointClass base(Item) studio("models/items/money_pickup.mdl") = money_pickup : "Money Pickup" []
 //[
 //	input Enable(vector) : "Sets a new radius and time to interpolate to it(as a vector <Size> <Time in Seconds>)."
 //]
@@ -4823,7 +4823,7 @@
 	sound(sound) : "Destruction Sound" : "BaseExplosionEffect.Sound"
 ]
 
-@PointClass base(Targetname) = logic_camera_override : "Camera Override"
+@PointClass base(Targetname) iconsprite("editor/logic_camera_override.vmt") = logic_camera_override : "Camera Override"
 [		
 	startenabled(choices) : "Start Enabled" : 0 : "Should the camera be overridden on mapspawn?" =
 	[
@@ -4884,7 +4884,7 @@
 	output OnFinished(void) : "Fired when hold time ends or when disabled."
 ]
 
-@PointClass base(Targetname) = env_instructor_hint : "An entity that allows for creation and control of instructor lessons by map logic"
+@PointClass base(Targetname) iconsprite("editor/env_instructor_hint.vmt") = env_instructor_hint : "An entity that allows for creation and control of instructor lessons by map logic"
 [
 	hint_replace_key(string) : "Replace Key" : : "Unique name so that messages with the same key will replace each other."
 	hint_target(target_destination) : "Target Entity" : : "The entity to show this hint on top of. The entity used must exist on the client, info_target_instructor_hint can be parented to server only entities for this purpose."
@@ -5037,7 +5037,7 @@
 	output OnStart(void) : "Fired when lesson is started."
 ]
 
-@PointClass base(Targetname) = logic_cutscene : "Cutscene Player"
+@PointClass base(Targetname) iconsprite("editor/logic_cutscene.vmt") = logic_cutscene : "Cutscene Player"
 [		
 	cutscene(string) : "Cutscene Name" : "" : "Prefix for logic_relays to look for. Assumes each relay name ends with page number. Starts at 0."
 
@@ -5060,4 +5060,140 @@
 	
 	output OnOpen(void) : "Fired when the pod is open enough to enter."
 	output OnClose(void) : "Fired when the pod too closed to enter."
+]
+
+@PointClass base(Targetname, Parentname) = logic_mirror_movement :
+	"An entity that can mirror entity movement to another entity."
+[
+	m_target(target_destination)            : "Target Entity"          :  : "Target entity."
+	m_strMirrorTarget(target_destination)   : "Mirror Target Entity"   :  : "Mirror target entity."
+	m_strRemoteTarget(target_destination)   : "Remote Target Entity"   :  : "Remote target entity."
+	m_strMirrorRelative(target_destination) : "Mirror Relative Entity" :  : "Mirror relative entity."
+	
+        input SetTarget(string) : "Set the Target Entity."
+	input SetMirrorTarget(string) : "Set the Mirror Target Entity."
+	input SetRemoteTarget(string) : "Set the Remote Target Entity."
+	input SetMirrorRelative(string) : "Set the Mirror Relative Entity."
+]
+
+@PointClass base(Targetname) iconsprite("editor/logic_subzone_transition.vmt") = logic_subzone_transition : "Subzone Transition"
+[		
+	freezeina(boolean) : "Freeze Into A" : "Yes" : "Freeze the player when going into A."
+	freezeouta(boolean) : "Freeze Out Of A" : "Yes" : "Freeze the player when going out of A."
+	freezeinb(boolean) : "Freeze Into B" : "Yes" : "Freeze the player when going into B."
+	freezeoutb(boolean) : "Freeze Out Of B" : "Yes" : "Freeze the player when going out of B."
+
+	intimea(float) : "Time Into A" : "0.4" : "Time going into A."
+	outtimea(float) : "Time Out Of A" : "0.4" : "Time going out of A."
+	intimeb(float) : "Time Into B" : "0.4" : "Time going into B."
+	outtimeb(float) : "Time Out Of B" : "0.4" : "Time going out of B."
+
+	textouta(string) : "Text Out Of A" : : ""
+	textoutb(string) : "Text Out Of B" : : ""
+
+	textxa(integer) : "Text X Offset Out Of A" : 0 : ""
+	textya(integer) : "Text Y Offset Out Of A" : 0 : ""
+	textxb(integer) : "Text X Offset Out Of B" : 0 : ""
+	textyb(integer) : "Text Y Offset Out Of B" : 0 : ""
+
+	textshadowxa(integer) : "Text Shadow X Offset Out Of A" : 6 : ""
+	textshadowya(integer) : "Text Shadow Y Offset Out Of A" : 6 : ""
+	textshadowxb(integer) : "Text Shadow X Offset Out Of B" : 6 : ""
+	textshadowyb(integer) : "Text Shadow Y Offset Out Of B" : 6 : ""
+
+	textholdtimea(float) : "Text Hold Time Out Of A" : "2.0" : ""
+	textholdtimeb(float) : "Text Hold Time Out Of B" : "2.0" : ""
+
+	textlettertimea(float) : "Text Letter Time Out Of A" : "0.075" : ""
+	textlettertimeb(float) : "Text Letter Time Out Of B" : "0.075" : ""
+
+	textfadetimea(float) : "Text Fade Out Time Out Of A" : "2.0" : ""
+	textfadetimeb(float) : "Text Fade Out Time Out Of B" : "2.0" : ""
+
+	textfadeintimea(float) : "Text Fade In Time Out Of A" : "1.0" : ""
+	textfadeintimeb(float) : "Text Fade In Time Out Of B" : "1.0" : ""
+
+	textcolora(color255) : "Text Color Out Of A" : "255 255 255 255" : ""
+	textcolorb(color255) : "Text Color Out Of B" : "255 255 255 255" : ""
+
+	textshadowcolora(color255) : "Text Shadow Color Out Of A" : "0 0 0 200" : ""
+	textshadowcolorb(color255) : "Text Shadow Color Out Of B" : "0 0 0 200" : ""
+
+	textfonta(string) : "Text Font Out Of A" : "SuperComicBig" : "Fonts located in ClientScheme."
+	textfontb(string) : "Text Font Out Of B" : "SuperComicBig" : "Fonts located in ClientScheme."
+
+	textshadowfonta(string) : "Text Shadow Font Out Of A" : "SuperComicBig" : "Fonts located in ClientScheme."
+	textshadowfontb(string) : "Text Shadow Font Out Of B" : "SuperComicBig" : "Fonts located in ClientScheme."
+
+	fadeinamodify(float) : "Fade In A Modify" : "1.1" : "Modify the fade length going into A."
+	fadeoutamodify(float) : "Fade Out Of A Modify" : "0.25" : "Modify the fade length going out of A."
+	fadeinbmodify(float) : "Fade In B Modify" : "1.1" : "Modify the fade length going into B."
+	fadeoutbmodify(float) : "Fade Out Of B Modify" : "0.25" : "Modify the fade length going out of B."
+
+	incolora(color255) : "Fade Color Into A" : "0 0 0 255" : "Fade color going into A."
+	outcolora(color255) : "Fade Color Out Of A" : "0 0 0 255" : "Fade color going out of A."
+
+	incolorb(color255) : "Fade Color Into B" : "0 0 0 255" : "Fade color going into B."
+	outcolorb(color255) : "Fade Color Out Of B" : "0 0 0 255" : "Fade color going out of B."
+
+	outanglesa(angle) : "Camera Angle Offset A" : "20 0 0" : "Camera angle offset going out of A."
+	outanglesb(angle) : "Camera Angle Offset B" : "20 0 0" : "Camera angle offset going out of B."
+
+	pointa(target_destination) : "Point A" : : "The entity to teleport to going into A."
+	pointb(target_destination) : "Point B" : : "The entity to teleport to going into B."
+
+	cameraina(target_destination) : "Camera Into A" : : "Camera to use when going into A."
+	cameraouta(target_destination) : "Camera Out Of A" : : "Camera to use when going out of A."
+	camerainb(target_destination) : "Camera Into B" : : "Camera to use when going into B."
+	cameraoutb(target_destination) : "Camera Out Of B" : : "Camera to use when going out of B."
+
+	walkina(boolean) : "Walk Into A" : "No" : ""
+	walkouta(boolean) : "Walk Out Of A" : "No" : ""
+	walkinb(boolean) : "Walk Into B" : "No" : ""
+	walkoutb(boolean) : "Walk Out Of B" : "No" : ""
+	walktargetina(target_destination) : "Walk Target Into A" : : ""
+	walktargetouta(target_destination) : "Walk Target Out Of A" : : ""
+	walktargetinb(target_destination) : "Walk Target Into B" : : ""
+	walktargetoutb(target_destination) : "Walk Target Out Of B" : : ""
+
+	musica(target_destination) : "Area A Music" : : ""
+	musicb(target_destination) : "Area B Music" : : ""
+
+	soundina(sound) : "Sound Into A" : "Transition.Mask"
+	soundouta(sound) : "Sound Out Of A" : "Transition.Mask"
+	soundinb(sound) : "Sound Into B" : "Transition.Mask"
+	soundoutb(sound) : "Sound Out Of B" : "Transition.Mask"
+
+	input TriggerA(void) : "Trigger A."
+	input TriggerB(void) : "Trigger B."
+
+	input SetPointA(target_destination) : "Set entity to teleport to on A."
+	input SetPointB(target_destination) : "Set entity to teleport to on B."
+
+	input SetInTimeA(float) : "Set time to fade into A."
+	input SetOutTimeA(float) : "Set time to fade out of A."
+	input SetInTimeB(float) : "Set time to fade into B."
+	input SetOutTimeB(float) : "Set time to fade out of B."
+
+	input SetInColorA(color255) : "Set color to fade into A."
+	input SetOutColorA(color255) : "Set color to fade out of A."
+	input SetInColorB(color255) : "Set color to fade into B."
+	input SetOutColorB(color255) : "Set color to fade out of B."
+
+	input SetFreezeInA(integer) : "Set freeze player into A."
+	input SetFreezeOutA(integer) : "Set freeze player out of A."
+	input SetFreezeInB(integer) : "Set freeze player into B."
+	input SetFreezeOutB(integer) : "Set freeze player out of B."
+
+	input SetOutAnglesA(vector) : "Set camera angles out of A."
+	input SetOutAnglesB(vector) : "Set camera angles out of B."
+
+	output OnStart(void) : "Fired when transition is started."
+	output OnFinished(void) : "Fired when transition is done."
+
+	output OnStartA(void) : "Fired when transition is started. A Only."
+	output OnFinishedA(void) : "Fired when transition is done. A Only."
+
+	output OnStartB(void) : "Fired when transition is started. B Only."
+	output OnFinishedB(void) : "Fired when transition is done. B Only."
 ]

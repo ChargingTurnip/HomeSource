@@ -1,0 +1,11 @@
+"unlitgeneric"
+{
+	"$basetexture" "effects/trail_jump"
+	"$translucent" 1
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$alpha" "0.55"
+	"$color" "[1.9 1.7 0.75]"
+	"$additive" "1"
+	//"%keywords" "hs"
+}

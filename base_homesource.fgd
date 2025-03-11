@@ -2609,7 +2609,7 @@
 	sides(sidelist) : "Brush faces"
 ]
 
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_start :
+@PointClass base(PlayerClass, Angles) studio("models/player/player_hammer.mdl") = info_player_start :
 	"This entity indicates the position and facing direction at which the player will spawn. Any number of "+
 	"info_player_start entities may be placed in a map for when working in cordoned-off portions of the map. "+
 	"When multiple info_player_start entities are present in a map, set the 'Master' spawnflag on one of them "+
@@ -2798,7 +2798,7 @@
 ]
 
 // This is obsolete, info_target is all you need now.
-@PointClass base(Targetname, Parentname, Angles, PlayerClass) studio("models/editor/playerstart.mdl") = info_teleport_destination : 
+@PointClass base(Targetname, Parentname, Angles, PlayerClass) studio("models/player/player_hammer.mdl") = info_teleport_destination : 
 	"An entity that does nothing itself, but can be used to specify the destination for a trigger_teleport entity. An info_target can be used instead."
 [
 ]
@@ -3978,6 +3978,25 @@
 	wait(integer) : "Hold Time" : 10 : "The amount of time the camera should control the player's view for, after which it deactivates itself. If the camera should stay active until told to deactive, set the 'Infinite Hold Time' spawnflag."
 	moveto(target_destination) : "Path Corner" : : "The first path corner in a track that the camera should move along once it's activated. If not specified, the camera won't move."
 	interpolatepositiontoplayer(choices) : "Interpolate Position To Player" : 0 : "Gradually interpolate player's position to here on start. (Episodic only)" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	interpolatepositiontoplayer2(choices) : "Interpolate Position To Target ALT" : 0 : "Gradually interpolate camera position to target on start." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	interpolatereverse(choices) : "Interp ALT Reverse" : 0 : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	interpolate2speed(float) : "Interpolate ALT Speed" : "0.01" : "How fast the camera will interpolate to the target position when using Interpolate Position To Target ALT."
+	interpolate2offset(integer) : "Interpolate ALT Height Offset" : 128 : ""
+
+	reset(choices) : "Reset Position On Disable" : 0 : "" =
 	[
 		0 : "No"
 		1 : "Yes"

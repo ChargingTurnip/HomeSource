@@ -1,0 +1,6 @@
+"Modulate"
+{
+	"$basetexture" "models\player\tie"
+	"$mod2x" "1"
+	"$nocull" "1"
+}

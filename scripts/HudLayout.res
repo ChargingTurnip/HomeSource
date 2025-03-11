@@ -10,7 +10,7 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"font"	"SuperComicSmallOutline"
+		"font"	"SuperComicSmall"
 		"text_xpos"	"4"
 		"text_ypos" "70"
 		"TextColor"	"255 255 255 255"
@@ -39,12 +39,65 @@
 		"shadowhealth_xpos"	"3"
 		"shadowhealth_ypos" "3"
 	}
+
+	HudPages
+	{
+		"fieldName"		"HudPages"
+		"xpos"	"r225"
+		"ypos"	"-2"
+		"wide"	"252"
+		"tall"  "100"
+		"visible" "1"
+		"enabled" "1"
+
+		"font"	"SuperComicMedium"
+		"text_xpos"	"61"
+		"text_ypos" "25"
+		"TextColor"	"255 255 255 255"
+
+		"shadowfont"	"SuperComicMedium"
+		"shadowtext_xpos"	"64"
+		"shadowtext_ypos" "28"
+		"ShadowTextColor"	"0 0 0 200"
+
+		"glowfont"	"SuperComicMediumGlow"
+		"glowtext_xpos"	"61"
+		"glowtext_ypos" "25"
+		"GlowTextColor"	"255 255 255 255"
+
+		"bg1_wide" "208"
+		"bg1_tall" "30"
+		"bg1_y" "40"
+		"bg1_type" "1"
+
+		"icon_xpos"	"-5"
+		"icon_ypos" "10"
+		"icon_wide"	"64"
+		"icon_tall" "64"
+
+		"shadowhealth_xpos"	"3"
+		"shadowhealth_ypos" "3"
+	}
+
+	HudBigTitle
+	{
+		"fieldName"		"HudBigTitle"
+		"xpos"	"c-640"
+		"ypos"	"c-240"
+		"wide"	"1280"
+		"tall"  "480"
+		"visible" "1"
+		"enabled" "1"
+
+		"text_xpos"	"640"
+		"text_ypos" "400"
+	}
 	
 	HudSuit
 	{
 		"fieldName"		"HudSuit"
-		"xpos"	"140"
-		"ypos"	"432"
+		"xpos"	"0"
+		"ypos"	"0"
 		"wide"	"108"
 		"tall"  "36"
 		"visible" "0"

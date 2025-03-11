@@ -121,6 +121,42 @@ Scheme
 				"custom"	"1"
 			}
 		}
+		SuperComicBig
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"64"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
+		SuperComicMedium
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
+		SuperComicMediumGlow
+		{
+			"1"
+			{
+				"name"		"Super Comic"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+				"blur"		"5"
+				//"scanlines" "2"
+				"additive"	"1"
+			}
+		}
 		ComicNote
 		{
 			"1"

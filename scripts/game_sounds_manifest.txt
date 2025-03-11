@@ -102,4 +102,5 @@ game_sounds_manifest
 	"precache_file"		"scripts/game_sounds_chatter.txt"	
 
 	"preload_file"  	"scripts/game_sounds_player.txt"
+	"preload_file"  	"scripts/game_sounds_transition.txt"
 }
