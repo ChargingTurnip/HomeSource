@@ -2,17 +2,35 @@
 {
 	"$basetexture" "models\player\body"
 	//"$bumpmap" "models\player\body_normal"
-	//"$envmap" "environment maps\borealis_003"
+	"$envmap" "cable\white"
+	"$envmaptint" "0.3"
+	"$lighting" "0.5"
+	"$pupilenvmap" "1"
+	"$pupilenvmapmult" "1.6"
+	"$pupilenvmapmax" "0.5"
 
-	"$phong" "1"
-	"$phongexponent" "20"
-	"$phongboost" ".3"	
+	//"$phong" "1"
+	//"$phongexponent" "20"
+	//"$phongboost" ".3"	
 	"$lightwarptexture" "models/player/player_lightwarp"
+
 	//"$phongfresnelranges"	"[.3 1 8]"
-	"$halflambert" "0"
+
+	//"$halflambert" "0"
 
 	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "12"										// Boost for ambient cube component of rim lighting
+	//"$rimlight" "1"												// To enable rim lighting (requires phong)
+	//"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	//"$rimlightboost" "12"										// Boost for ambient cube component of rim lighting
+
+	"Proxies"
+	{
+		"Pupil"
+		{
+			"texturevar" "$envmap"
+			"textureframenumvar" "$envmaptint"
+			"pupilcloserate" "0.9"
+			"pupilopenrate" "0.9"
+		}
+	}
 }

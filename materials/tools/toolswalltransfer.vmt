@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Tools/toolswalltransfer"
+	"$basetexturetransform" "center 0 0 scale .25 .25 rotate 0 translate 0 0"
+	"%compiletrigger" 1
+	"%keywords" "hs"
+}
+

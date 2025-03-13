@@ -5197,3 +5197,8 @@
 	output OnStartB(void) : "Fired when transition is started. B Only."
 	output OnFinishedB(void) : "Fired when transition is done. B Only."
 ]
+
+@SolidClass base(Trigger) = func_allowwalltransfer :
+	"A volumetric trigger that allows the player to perform Slope-To-Wall-Transfers (because it's jank)."
+[
+]

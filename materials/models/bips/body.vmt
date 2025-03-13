@@ -3,15 +3,36 @@
 	"$basetexture" "models\bips\body"
 	//"$bumpmap" "models\bips\body_normal"
 
-	"$phong" "1"
-	"$phongexponent" "20"
-	"$phongboost" ".3"	
+	//"$phong" "1"
+	//"$phongexponent" "20"
+	//"$phongboost" ".3"	
+
 	"$lightwarptexture" "models/player/player_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
-	"$halflambert" "0"
+
+	//"$phongfresnelranges"	"[.3 1 8]"
+	//"$halflambert" "0"
 
 	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "12"										// Boost for ambient cube component of rim lighting
+	//"$rimlight" "1"												// To enable rim lighting (requires phong)
+	//"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	//"$rimlightboost" "12"										// Boost for ambient cube component of rim lighting
+
+	"$envmap" "cable\white"
+	"$envmaptint" "0.3"
+	"$lighting" "0.5"
+	"$pupilenvmap" "1"
+	"$pupilenvmapmult" "1.6"
+	"$pupilenvmapmax" "0.5"
+
+
+	"Proxies"
+	{
+		"Pupil"
+		{
+			"texturevar" "$envmap"
+			"textureframenumvar" "$envmaptint"
+			"pupilcloserate" "0.9"
+			"pupilopenrate" "0.9"
+		}
+	}
 }
