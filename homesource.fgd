@@ -5018,6 +5018,8 @@
 	chat_script(sound) : "Chatter Sound" : "Chatter.Bip01" : "Chatter sound to play."
 	pop_script(sound) : "Popup Sound" : "Chatter.Popup" : "Sound to play on popup."
 	popend_script(sound) : "Popup End Sound" : "Chatter.PopupEnd" : "Sound to play on popup end."
+
+	sound_global(boolean) : "Global Sounds" : "No" : "The hint will have global sounds."
 	
 	input ShowHint(string) : "Start showing the hint. If an entity name is passed as a parameter, the hint is shown only to that entity."	
 	input EndHint(void) : "Stop showing the hint if it hasn't already timed out."
@@ -5201,4 +5203,26 @@
 @SolidClass base(Trigger) = func_allowwalltransfer :
 	"A volumetric trigger that allows the player to perform Slope-To-Wall-Transfers (because it's jank)."
 [
+]
+
+@SolidClass base(Trigger) = func_superbump :
+	"A volumetric trigger that bounces the player when bumping or groundpound slamming against it."
+[
+	mode(choices) : "SuperBump Mode" : "Bump" = 
+	[
+		0 : "Bump"
+		1 : "Slam"
+	]
+
+	sound(sound) : "SuperBump Sound" : "Gameplay.SuperSpring"
+	particle(string) : "SuperBump Particle" : "hs_superspring"
+	particleangles(vector) : "Particle Angles" : "0 0 0"
+
+	output OnSuperBumped(void) : "Fired when player is superbumped."
+]
+
+@PointClass base(Targetname) studioprop() = prop_litter : 
+	"Litter"
+[
+	model(studio) : "World model" : ""
 ]

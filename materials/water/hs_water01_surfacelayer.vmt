@@ -1,0 +1,29 @@
+"LightmappedGeneric"
+{
+	"%CompileNonSolid" 1
+	"%CompileNoLight" 1
+	"$bumpmap" "water/hs_water01_bump"
+	"%keywords" "hs"
+	"$basetexture" "dev/256gray"
+
+	//"$selfillum" 1
+
+	"$envmap" "detail/shine_detail_02"
+	//"$envmapcontrast" 1
+	"$envmaptint" "[200 200 200]"
+	"$fresnelreflection" 1
+	"$additive" 1
+	"$alpha" 0.35
+
+	"Proxies"
+	{	
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$bumpmap"
+			"animatedTextureFrameNumVar" "$bumpframe"
+			"animatedTextureFrameRate" 24
+		}
+	}
+}
+
+

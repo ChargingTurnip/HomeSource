@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dev/gradient_white"
+	"$envmap" "cable/white"
+	"$envmaptint" 0.4
+	"$translucent" 1
+	"%keywords" "hs"
+}

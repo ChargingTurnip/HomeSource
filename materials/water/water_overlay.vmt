@@ -1,0 +1,23 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "water/water_overlay"
+	"$decal" "1"
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "hs"
+	
+	"$alpha" 0.3
+	//"$additive" 1
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .04
+			"texturescrollangle" 25.00
+		}		
+	}
+
+}

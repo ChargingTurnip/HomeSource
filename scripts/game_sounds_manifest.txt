@@ -103,4 +103,6 @@ game_sounds_manifest
 
 	"preload_file"  	"scripts/game_sounds_player.txt"
 	"preload_file"  	"scripts/game_sounds_transition.txt"
+	"preload_file"  	"scripts/game_sounds_footsteps.txt"
+	"preload_file"  	"scripts/game_sounds_gameplay.txt"
 }

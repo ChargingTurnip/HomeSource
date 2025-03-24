@@ -47,6 +47,7 @@ particles_manifest
 	"file"		"particles/rocket_fx.pcf"	
 	"file"		"particles/impact_fx.pcf"		
 	"file"		"!particles/hs_movement_part.pcf"
-	"file"		"!particles/hs_movement_part_turnip.pcf"
+	"file"		"!particles/hs_movement_part_turnip.pcf"	
+	"file"		"!particles/hs_level_clouds_n_fog.pcf"
 }
 

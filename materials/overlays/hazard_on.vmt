@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"overlays/hazard_on"
+
+    	 "$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 3
+	"$detailblendmode" 0
+	"$color" "0.5"
+
+	"$decal" "1"
+	"$translucent" 1
+	//"$vertexcolor" "1"
+	//"$vertexalpha" "1"
+	"%keywords" "hs"
+}

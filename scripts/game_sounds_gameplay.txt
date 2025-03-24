@@ -1,0 +1,15 @@
+// Physics Sounds
+//
+//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//   uses CHAN_STATIC in others, so I didn't specify a channel here
+//  Volume is determined procedurally by the physics code
+//
+
+
+"Gameplay.SuperSpring"
+{
+	"pitch"			"80,110"
+	"volume"		"0.9,1.0"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"gameplay/superspring.wav"
+}

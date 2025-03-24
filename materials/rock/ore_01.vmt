@@ -1,0 +1,67 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "rock/ore_01"
+	"$basetexturetransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$bumpmap" "rock/rockterrain_05_bump"
+	"$surfaceprop" "Ore"
+	"%keywords" "hs"
+
+	// "$detail" "detail\rock_detail_02"
+	//"$detailscale" "0.25"
+	//"$detailblendfactor" 1
+	//"$detailblendmode" 0
+
+	"$detail" "detail\shine_detail_01"
+	"$detailscale" "1"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+	"$selfillum" 1
+	"$selfillumtint" "0"
+
+
+	//"$envmap" "rock/ore_01"
+	//"$envmaptint" 0.85
+	//"$envmapcontrast" 1
+
+	"$envmap" "environment maps/rg"
+	"$envmaptint" "[0.6 4 0.6]"
+
+	"Proxies"
+	{	
+		"Sine"
+		{
+			sinemin 0.8
+			sinemax 1.2
+			sineperiod 2
+			resultVar $color
+		}
+		"Sine"
+		{
+			sinemin 0
+			sinemax 0.5
+			sineperiod 4
+			resultVar $detailblendfactor
+		}
+		"Sine"
+		{
+			sinemin 0.25
+			sinemax 1
+			sineperiod 8
+			resultVar $detailscale
+		}
+		"Sine"
+		{
+			sinemin 0
+			sinemax 0.25
+			sineperiod 2
+			resultVar $selfillumtint
+		}
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$detail"
+			"animatedTextureFrameNumVar" "$detailframe"
+			"animatedTextureFrameRate" 64
+		}
+	}
+}

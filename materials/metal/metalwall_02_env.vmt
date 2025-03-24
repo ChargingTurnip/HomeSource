@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metalwall_02"
+	"$bumpmap" "metal/metalwall_02_bump"
+	"$surfaceprop"  "metal"
+
+	"$color" "0.25"
+
+	"%keywords" "hs"
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.5"
+	"$detailblendfactor" 12
+	"$detailblendmode" 0
+
+	"$envmap" "environment maps/rg"
+	"$envmaptint" "0.025"
+}

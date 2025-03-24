@@ -1,0 +1,14 @@
+// Physics Sounds
+//
+//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//   uses CHAN_STATIC in others, so I didn't specify a channel here
+//  Volume is determined procedurally by the physics code
+//
+
+"Footstep.Ore"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.30,0.40"
+	"pitch"			"80,120"
+	"wave"		"player/footsteps/ore/step.wav"
+}

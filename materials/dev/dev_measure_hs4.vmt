@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dev/dev_measure_hs4"
+	"$surfaceprop" "Concrete"
+	"$color" "0.8"
+	"%keywords" "hs"
+}

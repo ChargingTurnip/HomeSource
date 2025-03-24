@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/ibeam_03"
+	"$bumpmap" "metal/ibeam_02_bump"
+	"$surfaceprop"  "metal"
+	"$color" "0.5"
+
+	"%keywords" "hs"
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 4
+	"$detailblendmode" 0
+}

@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"concrete/concretewall03"
+	"$bumpmap"		"bumpmaps/wall_bump01"
+	"%keywords"		"hs"
+	"$detail"		"detail\brush_detail_01"
+	"$detailscale"		"0.250000"
+	"$detailblendfactor"		"2"
+	"$detailblendmode"		"0"
+	"$model"		"1"
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "rock/rockterrain_05"
+	"$basetexturetransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$bumpmap" "rock/rockterrain_05_bump"
+	"$surfaceprop" "Concrete"
+	"%keywords" "hs"
+
+	 "$detail" "detail\rock_detail_02"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+}
