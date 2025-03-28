@@ -3,4 +3,13 @@
 	"$basetexture" "models\player\tie"
 	"$mod2x" "1"
 	"$nocull" "1"
+
+	"Proxies"
+	{
+		"HSTie"
+		{
+			"texturevar" "$basetexture"
+			"textureframenumvar" "$frame"
+		}
+	}
 }

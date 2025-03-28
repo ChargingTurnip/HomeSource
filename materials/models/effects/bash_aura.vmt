@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\effects\bash_aura"
+	"$translucent" 1
+	//"$mod2x" 1
+	"$additive" 1
+}

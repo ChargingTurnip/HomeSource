@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\items\mug\coffee_mug_pickup"
+
+	"$lightwarptexture" "models/player/player_lightwarp"
+
+	"$envmap" "cable\white"
+	"$envmaptint" "0.3"
+}

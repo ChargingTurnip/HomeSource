@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/hs_part_bashring"
+	"$translucent" 1
+	"$vertexalpha" "1"
+	"%keywords" "hs"
+}

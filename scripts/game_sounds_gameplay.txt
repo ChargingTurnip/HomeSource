@@ -13,3 +13,37 @@
 	"soundlevel"		"SNDLVL_NONE"
 	"wave"		"gameplay/superspring.wav"
 }
+
+"Gameplay.RankUp"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"gameplay/rankup.wav"
+}
+
+"Gameplay.RankDown"
+{
+	"pitch"			"80"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"gameplay/rankdown.wav"
+}
+
+// make a sound for this later
+"Gameplay.RankF"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"gameplay/rankdown.wav"
+}
+
+// make a sound for this later
+"Gameplay.RankP"
+{
+	"pitch"			"PITCH_NORM"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"gameplay/rankup.wav"
+}

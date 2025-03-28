@@ -5,9 +5,6 @@
 	"$envmap" "cable\white"
 	"$envmaptint" "0.3"
 	"$lighting" "0.5"
-	"$pupilenvmap" "1"
-	"$pupilenvmapmult" "1.3"
-	"$pupilenvmapmax" "0.5"
 
 	//"$phong" "1"
 	//"$phongexponent" "20"
@@ -23,6 +20,11 @@
 	//"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	//"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
+	//"$detail" "models\player\tie"	
+	//"$detailscale" "1"
+	//"$detailblendmode" "1"
+	//"$detailblendfactor" "1"
+
 	"Proxies"
 	{
 		"Pupil"
@@ -31,6 +33,29 @@
 			"textureframenumvar" "$envmaptint"
 			"pupilcloserate" "0.9"
 			"pupilopenrate" "0.9"
+			"pupilvector" "1"
+			"pupilmult" "1.3"
+			"pupilmax" "0.5"
 		}
+		//"Pupil"
+		//{
+		//	"texturevar" "$detail"
+		//	"textureframenumvar" "$detailblendfactor"
+		//	"pupilcloserate" "0.9"
+		//	"pupilopenrate" "0.9"
+		//	"pupil01" "1"
+		//	"pupilmult" "3"
+		//	"pupilmax" "10"
+		//}
+		"HSTie"
+		{
+			"texturevar" "$basetexture"
+			"textureframenumvar" "$frame"
+		}
+		//"HSTie"
+		//{
+		//	"texturevar" "$detail"
+		//	"textureframenumvar" "$detailframe"
+		//}
 	}
 }

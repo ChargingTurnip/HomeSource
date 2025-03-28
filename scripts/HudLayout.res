@@ -75,8 +75,45 @@
 		"icon_wide"	"64"
 		"icon_tall" "64"
 
-		"shadowhealth_xpos"	"3"
-		"shadowhealth_ypos" "3"
+		"shadowicon_xpos"	"3"
+		"shadowicon_ypos" "3"
+	}
+
+	HudRank
+	{
+		"fieldName"		"HudRank"
+		"xpos"	"176"
+		"ypos"	"-2"
+		"wide"	"252"
+		"tall"  "100"
+		"visible" "1"
+		"enabled" "1"
+
+		"bg1_wide" "80"
+		"bg1_tall" "30"
+		"bg1_y" "40"
+		"bg1_type" "1"
+
+		"icon_xpos"	"0"
+		"icon_ypos" "4"
+		"icon_wide"	"80"
+		"icon_tall" "80"
+
+		"iconbg_xpos"	"16"
+		"iconbg_ypos" "18"
+		"iconbg_wide"	"45"
+		"iconbg_tall" "44"
+	
+		"FRankColor"	"139 69 19 255"
+		"DRankColor"	"110 110 120 255"
+		"CRankColor"	"0 180 0 255"
+		"BRankColor"	"255 0 0 255"
+		"ARankColor"	"190 190 0 255"
+		"SRankColor"	"80 80 200 255"
+		"PRankColor"	"255 0 255 255"
+
+		"shadowicon_xpos"	"3"
+		"shadowicon_ypos" "3"
 	}
 
 	HudBigTitle

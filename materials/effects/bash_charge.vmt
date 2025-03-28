@@ -3,6 +3,7 @@
 	"$basetexture" "effects/bash_charge"
 	"$translucent" 1
 	"$vertexalpha" "1"
-	"$vertexcolor" "1"
+	"$model" 1
+	//"$vertexcolor" "1"
 	"%keywords" "hs"
 }

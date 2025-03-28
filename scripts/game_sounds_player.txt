@@ -66,3 +66,12 @@
 	"soundlevel"		"SNDLVL_70dB"
 	"wave"		"player/fieldjump.wav"
 }
+
+"Player.BashEnd"
+{
+	"pitch"			"90,110"
+	//"volume"		"0.35,0.6"
+	"volume"		"0.0"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"		"mask.wav"
+}

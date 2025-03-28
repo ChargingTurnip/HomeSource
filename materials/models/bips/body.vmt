@@ -20,9 +20,6 @@
 	"$envmap" "cable\white"
 	"$envmaptint" "0.3"
 	"$lighting" "0.5"
-	"$pupilenvmap" "1"
-	"$pupilenvmapmult" "1.6"
-	"$pupilenvmapmax" "0.5"
 
 
 	"Proxies"
@@ -33,6 +30,9 @@
 			"textureframenumvar" "$envmaptint"
 			"pupilcloserate" "0.9"
 			"pupilopenrate" "0.9"
+			"pupilvector" "1"
+			"pupilmult" "1.6"
+			"pupilmax" "0.5"
 		}
 	}
 }

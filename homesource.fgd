@@ -5226,3 +5226,21 @@
 [
 	model(studio) : "World model" : ""
 ]
+
+@PointClass base(Targetname, Parentname) studio("models/items/item_mug.mdl") = item_mug : "Item Mug"
+[
+	input Toggle(void) : "Toggle entity."
+]
+
+@PointClass base(Targetname) iconsprite("editor/rank_manager.vmt") = rank_manager : "Rank Manager"
+[		
+	startenabled(boolean) : "Start Enabled" : "Yes" : "Level starts out with ranking enabled."
+
+	creq(integer) : "C Rank Requirement" : 10 : ""
+	breq(integer) : "B Rank Requirement" : 20 : ""
+	areq(integer) : "A Rank Requirement" : 30 : ""
+	sreq(integer) : "S Rank Requirement" : 40 : ""
+
+	input Enable(void) : "Enable ranking."
+	input Disable(void) : "Disable ranking."
+]
