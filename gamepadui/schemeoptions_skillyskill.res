@@ -47,7 +47,7 @@
 
 	"Colors"
 	{
-		"Button.Background.Out"						"0 0 0 0"
+		"Button.Background.Out"						"0 0 0 100"
 		"Button.Background.Over"					"0 0 0 0"
 		"Button.Background.Pressed"					"0 0 0 0"
 

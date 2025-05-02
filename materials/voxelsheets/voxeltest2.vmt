@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "nature/sandground01"
+	"$normalmap" "nature/sandground01_bump"
+	"$basetexturetransform" "center 0 0 scale 0.25 0.25 rotate 0 translate 0 0"
+	"$surfaceprop" "Rock"
+
+	"$vertexcolor" "1"
+	//"$color" 0.6
+
+	"$detail" "nature/sandground01"
+	"$detailscale" "1"
+	"$detailblendfactor" 4
+	"$detailblendmode" 0
+}

@@ -11,12 +11,12 @@
 		"Button.Height.Pressed"					"60"
 		"Button.Progress.Height"				"1"
 
-		"Button.Text.OffsetX.Out"					"120"
-		"Button.Text.OffsetX.Over"					"120"
-		"Button.Text.OffsetX.Pressed"				"120"
-		"Button.Text.OffsetY.Out"					"-10"
-		"Button.Text.OffsetY.Over"					"-10"
-		"Button.Text.OffsetY.Pressed"				"-10"
+		//"Button.Text.OffsetX.Out"					"120"
+		//"Button.Text.OffsetX.Over"					"120"
+		//"Button.Text.OffsetX.Pressed"				"120"
+		//"Button.Text.OffsetY.Out"					"-10"
+		//"Button.Text.OffsetY.Over"					"-10"
+		//"Button.Text.OffsetY.Pressed"				"-10"
 
 		"Button.Description.OffsetX.Out"			"0"
 		"Button.Description.OffsetY.Out"			"3"
@@ -35,20 +35,42 @@
 		"Button.Animation.Background"				"0.2"
 		"Button.Animation.Text"					"0.2"
 		"Button.Animation.Description"			"0.3"
+
+		"Button.Text.BottomBorder.Out"			"0"
+		"Button.Text.BottomBorder.Over"			"8"
+		"Button.Text.BottomBorder.Pressed"		"8"
+
+		"Button.Text.OffsetX.Out"				"120"
+		"Button.Text.OffsetX.Over"				"130"
+		"Button.Text.OffsetX.Pressed"			"130"
+		"Button.Text.OffsetY.Out"				"-10"
+		"Button.Text.OffsetY.Over"				"-12"
+		"Button.Text.OffsetY.Pressed"			"-12"
+
+		"Button.Text.OffsetX.Animation.Duration"		"0.15"
+		"Button.Width.Animation.Duration"				"0.15"
+		"Button.Height.Animation.Duration"				"0.25"
+		"Button.Background.Animation.Duration"			"0.2"
+		"Button.Text.Animation.Duration"				"0.2"
+		"Button.Description.Animation.Duration"			"0.2"
 	}
 
 	"Colors"
 	{
-		"Button.Background.Out"						"0 0 0 0"
-		"Button.Background.Over"					"255 255 255 255"
+		"Button.Background.Out"						"0 0 0 100"
+		"Button.Background.Over"					"255 255 255 20"
 		"Button.Background.Pressed"					"255 255 255 255"
 
+		"Button.Background.BottomBorder.Out"			"0 0 0 255"
+		"Button.Background.BottomBorder.Over"			"255 134 44 255"
+		"Button.Background.BottomBorder.Pressed"		"255 255 255 255"
+
 		"Button.Text.Out"							"255 255 255 255"
-		"Button.Text.Over"							"0 0 0 255"
+		"Button.Text.Over"							"255 134 44 255"
 		"Button.Text.Pressed"						"0 0 0 255"
 
 		"Button.Description.Out"					"255 255 255 150"
-		"Button.Description.Over"					"0 0 0 255"
+		"Button.Description.Over"					"255 134 44 200"
 		"Button.Description.Pressed"				"0 0 0 255"
 	}
 

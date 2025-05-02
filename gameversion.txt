@@ -1,0 +1,5 @@
+"GameVersion"
+{
+	version	"v0.0.2"
+	name	"PRE-ALPHA - SteamPrep"
+}

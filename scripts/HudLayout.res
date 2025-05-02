@@ -116,6 +116,184 @@
 		"shadowicon_ypos" "3"
 	}
 
+	HudFace
+	{
+		"fieldName"		"HudFace"
+		"xpos"	"16"
+		"ypos"	"356"
+		"wide"	"252"
+		"tall"  "150"
+		"visible" "1"
+		"enabled" "1"
+
+		"bg1_wide" "100"
+		"bg1_tall" "40"
+		"bg1_y" "60"
+		"bg1_type" "1"
+
+		"face_xpos"	"-5"
+		"face_ypos" "0"
+		"face_wide"	"96"
+		"face_tall" "96"
+
+		"shadowface_xpos"	"3"
+		"shadowface_ypos" "3"
+
+		"faceactive_xpos"	"-40"
+		"faceactive_ypos" "4"
+		"faceactive_wide"	"160"
+		"faceactive_tall" "160"
+	}
+
+	HudAccel
+	{
+		"fieldName"		"HudAccel"
+		"xpos"	"r130"
+		"ypos"	"356"
+		"wide"	"252"
+		"tall"  "150"
+		"visible" "1"
+		"enabled" "1"
+
+		"accel_xpos"	"7"
+		"accel_ypos" "1"
+		"accel_wide"	"96"
+		"accel_tall" "96"
+
+		"accel_max" "17"
+
+		"font"	"SuperComicMedium"
+		"text_xpos"	"61"
+		"text_ypos" "25"
+		"TextColor"	"255 255 255 255"
+
+		"shadowfont"	"SuperComicMedium"
+		"shadowtext_xpos"	"64"
+		"shadowtext_ypos" "28"
+		"ShadowTextColor"	"0 0 0 200"
+
+		"subfont"	"ComicNoteSmall"
+		"subtext_xpos"	"50"
+		"subtext_ypos" "63"
+		"SubTextColor"	"255 255 255 255"
+
+		"subshadowfont"	"ComicNoteSmall"
+		"subshadowtext_xpos"	"53"
+		"subshadowtext_ypos" "66"
+		"SubShadowTextColor"	"0 0 0 200"
+	}
+
+	HudIntroLogo
+	{
+		"fieldName"		"HudIntroLogo"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"10000"
+		"tall"  "10000"
+		"visible" "1"
+		"enabled" "1"
+
+		"h_starttime_a"		"2"
+		"h_endtime_a" 		"5"
+		"h_starttime_m"		"33"
+		"h_endtime_m" 		"38"
+		"h_mx"			"0"
+		"h_my"			"200"
+		"h_ms"			"1500"
+
+		"o_starttime_a"		"6"
+		"o_endtime_a" 		"9"
+		"o_starttime_m"		"35"
+		"o_endtime_m" 		"38"
+		"o_mx"			"200"
+		"o_my"			"0"
+		"o_ms"			"2000"
+
+		"m_starttime_a"		"5"
+		"m_endtime_a" 		"8"
+		"m_starttime_m"		"39"
+		"m_endtime_m" 		"45"
+		"m_mx"			"0"
+		"m_my"			"-300"
+		"m_ms"			"1500"
+
+		"e_starttime_a"		"8"
+		"e_endtime_a" 		"11"
+		"e_starttime_m"		"36"
+		"e_endtime_m" 		"41"
+		"e_mx"			"200"
+		"e_my"			"100"
+		"e_ms"			"2000"
+
+		"s_starttime_a"		"10"
+		"s_endtime_a" 		"13"
+		"s_starttime_m"		"38"
+		"s_endtime_m" 		"43"
+		"s_mx"			"-200"
+		"s_my"			"400"
+		"s_ms"			"2200"
+
+		"o2_starttime_a"	"12"
+		"o2_endtime_a" 		"15"
+		"o2_starttime_m"	"42"
+		"o2_endtime_m" 		"47"
+		"o2_mx"			"-200"
+		"o2_my"			"400"
+		"o2_ms"			"2000"
+
+		"u_starttime_a"		"16"
+		"u_endtime_a" 		"19"
+		"u_starttime_m"		"40"
+		"u_endtime_m" 		"43"
+		"u_mx"			"-100"
+		"u_my"			"600"
+		"u_ms"			"2000"
+
+		"r_starttime_a"		"14"
+		"r_endtime_a" 		"17"
+		"r_starttime_m"		"45"
+		"r_endtime_m" 		"51"
+		"r_mx"			"0"
+		"r_my"			"600"
+		"r_ms"			"2000"
+
+		"c_starttime_a"		"17"
+		"c_endtime_a" 		"22"
+		"c_starttime_m"		"44"
+		"c_endtime_m" 		"52"
+		"c_mx"			"0"
+		"c_my"			"0"
+		"c_ms"			"2000"
+
+		"e2_starttime_a"	"19"
+		"e2_endtime_a" 		"22"
+		"e2_starttime_m"	"41"
+		"e2_endtime_m" 		"49"
+		"e2_mx"			"0"
+		"e2_my"			"0"
+		"e2_ms"			"2000"
+
+		"swoosh_starttime_a"	"20"
+		"swoosh_endtime_a" 	"22"
+		"swoosh_starttime_m"	"49"
+		"swoosh_endtime_m" 	"57"
+		"swoosh_mx"		"-300"
+		"swoosh_my"		"-200"
+		"swoosh_ms"		"3000"
+
+		"white_startintime_a"	"20"
+		"white_endintime_a" 	"22"
+		"white_startouttime_a"	"23"
+		"white_endouttime_a" 	"29"
+
+		"glow_startintime_a"	"20"
+		"glow_endintime_a" 	"22"
+		"glow_startouttime_a"	"23"
+		"glow_endouttime_a" 	"29"
+
+		"endtime"		"80"
+	}
+
 	HudBigTitle
 	{
 		"fieldName"		"HudBigTitle"

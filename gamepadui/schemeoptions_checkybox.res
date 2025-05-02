@@ -35,12 +35,12 @@
 
 	"Colors"
 	{
-		"Button.Background.Out"						"0 0 0 0"
+		"Button.Background.Out"						"0 0 0 100"
 		"Button.Background.Over"					"255 255 255 255"
 		"Button.Background.Pressed"					"255 255 255 255"
 
-		"Button.Text.Out"							"255 255 255 150"
-		"Button.Text.Over"							"0 0 0 255"
+		"Button.Text.Out"						"255 255 255 150"
+		"Button.Text.Over"						"0 0 0 255"
 		"Button.Text.Pressed"						"0 0 0 255"
 
 		"Button.Description.Out"					"255 255 255 150"

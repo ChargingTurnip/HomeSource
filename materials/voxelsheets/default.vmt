@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "voxelsheets/default"
+	"$envmap" "environment maps/rg"
+	"$envmapmask" "voxelsheets/default"
+}

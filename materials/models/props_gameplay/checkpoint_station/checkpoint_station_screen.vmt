@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_gameplay\checkpoint_station\checkpoint_station_screen"
+	"$envmap" "environment maps/rg"
+	"$envmapmask" "models\props_gameplay\checkpoint_station\checkpoint_station_screen"
+	"$envmaptint" "100"
+
+	"$detail"	"models\props_gameplay\checkpoint_station\checkpoint_station_screen"
+	"$detailscale" 1
+	"$detailblendfactor" 1
+	"$detailblendmode" 5
+
+
+	"$temp" "0"
+	"$temp2" "0"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "3"
+			"sinemin"	"0.8"
+			"sinemax" "1.1"
+			"resultVar" "$temp"
+		}
+		"GaussianNoise"
+		{
+			"mean"		"0"
+			"halfWidth"	"0.025"
+			"minVal"		"-0.05"
+			"maxVal"		"0.1"
+			"resultvar"	"$temp2"
+		}
+		"Add"
+		{
+			"srcVar1"	"$temp"
+			"srcVar2"	"$temp2"
+			"resultVar"	"$color2"
+		}
+
+		"GaussianNoise"
+		{
+			"mean"		"0.9"
+			"halfWidth"	"0.1"
+			"minVal"		"0.25"
+			"maxVal"		"1"
+			"resultVar"	"$detailblendfactor"
+		}
+	}
+}

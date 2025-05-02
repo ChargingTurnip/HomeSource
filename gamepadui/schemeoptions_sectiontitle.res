@@ -3,16 +3,16 @@
 	"BaseSettings"
 	{
 
-		"Button.Width.Out"						"512"
-		"Button.Width.Over"						"512"
-		"Button.Width.Pressed"					"512"
+		"Button.Width.Out"						"648"
+		"Button.Width.Over"						"648"
+		"Button.Width.Pressed"					"648"
 
 		"Button.Text.OffsetX.Out"				"14"
 		"Button.Text.OffsetX.Over"				"14"
 		"Button.Text.OffsetX.Pressed"			"14"
-		"Button.Text.OffsetY.Out"				"2"
-		"Button.Text.OffsetY.Over"				"2"
-		"Button.Text.OffsetY.Pressed"			"2"
+		"Button.Text.OffsetY.Out"				"0"
+		"Button.Text.OffsetY.Over"				"0"
+		"Button.Text.OffsetY.Pressed"			"0"
 
 		"Button.Height.Out"						"32"
 		"Button.Height.Over"					"32"
@@ -25,7 +25,7 @@
 
 	"Colors"
 	{
-		"Button.Background.Out"						"0 0 0 0"
+		"Button.Background.Out"						"255 134 44 255"
 		"Button.Background.Over"					"0 0 0 0"
 		"Button.Background.Pressed"					"0 0 0 0"
 

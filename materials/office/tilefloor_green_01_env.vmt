@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "office/tilefloor_green_01"
+	"$bumpmap" "office/tilefloor_green_01_bump"
+	"$envmap" "environment maps/rg"
+	"$envmaptint" "0.07"
+	"$surfaceprop"  "concrete"
+
+	"%keywords" "hs"
+
+	"$detail" "detail\brush_detail_01"
+	"$detailscale" "0.25"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+}

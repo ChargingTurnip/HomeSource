@@ -168,6 +168,17 @@ Scheme
 				"custom"	"1"
 			}
 		}
+		ComicNoteSmall
+		{
+			"1"
+			{
+				"name"		"Comic Note"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias" "1"
+				"custom"	"1"
+			}
+		}
 		"DebugFixed"
 		{
 			"1"

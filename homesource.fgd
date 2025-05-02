@@ -5,6 +5,7 @@
 //=============================================================================
 
 @include "base_homesource.fgd"
+@include "voxelteq.fgd"
 
 //-------------------------------------------------------------------------
 //
@@ -5243,4 +5244,11 @@
 
 	input Enable(void) : "Enable ranking."
 	input Disable(void) : "Disable ranking."
+]
+
+@PointClass base(Targetname, Angles, Studiomodel, Parentname) studioprop() = checkpoint_station : "Checkpoint Station"
+[
+	sound(sound) : "Destruction Sound" : "NPC_CombineBall.Explosion"
+	effect_name(string) : "Destruction Particle" : "aurora_shockwave"
+	ambient_effect_name(string) : "Ambient Particle" : "hs_dustmote_256"
 ]

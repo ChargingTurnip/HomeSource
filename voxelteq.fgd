@@ -1,0 +1,46 @@
+@include "base_homesource.fgd"
+
+@PointClass base(Targetname) iconsprite("editor/voxelteq/v_world_manager.vmt") = v_world_manager : "Voxel World Manager"
+[		
+	startenabled(boolean) : "Start Enabled" : "Yes" : "Voxel World is built on level start."
+
+	xdimension(integer) : "X Scale" : 2 : "Voxel World X scale in chunks. One chunk is 8x8x8 voxels."
+	ydimension(integer) : "Y Scale" : 2 : "Voxel World Y scale in chunks. One chunk is 8x8x8 voxels."
+	zdimension(integer) : "Z Scale" : 2 : "Voxel World Z scale in chunks. One chunk is 8x8x8 voxels."
+
+	vscale(float) : "Voxel Scale" : "64" : "Scale of each voxel in Hammer Units."
+
+	drawtop(boolean) : "Render Top of World" : "Yes" : "Should the very top face of the Voxel World be rendered?"
+	drawbottom(boolean) : "Render Bottom of World" : "Yes" : "Should the very bottom face of the Voxel World be rendered?"
+	drawleft(boolean) : "Render Left of World" : "Yes" : "Should the very left face of the Voxel World be rendered?"
+	drawright(boolean) : "Render Right of World" : "Yes" : "Should the very right face of the Voxel World be rendered?"
+	drawfront(boolean) : "Render Front of World" : "Yes" : "Should the very front face of the Voxel World be rendered?"
+	drawback(boolean) : "Render Back of World" : "Yes" : "Should the very back face of the Voxel World be rendered?"
+
+	generator(target_destination) : "Voxel World Generator" : "" : "The Voxel World Generator that will generate this world."
+	
+	sheetname(string) : "Voxel Sheet Name" : "default" : "The Voxel Sheet to be used to render the voxels. Voxel Sheets can be found in scripts/voxelsheets.txt."
+	customsheetdata(string) : "Custom Voxel Sheet File" : "" : "In case you want to search inside a different file instead of the default. Useful for custom maps."
+
+	input Enable(void) : "Enable Voxel World."
+	input Disable(void) : "Disable Voxel World."
+	input RebuildWorld(void) : "Rebuild Voxel World."
+]
+
+@PointClass base(Targetname) iconsprite("editor/voxelteq/v_world_generator.vmt") = v_world_generator : "Voxel World Generator"
+[		
+	seed(integer) : "Voxel World Seed" : 0 : "The Seed to be used to generate the world. Zero = random."
+	mode(choices) : "Generate Mode" : "REPLACE" = 
+	[
+		0 : "REPLACE"
+		1 : "ADD"
+		2 : "SUBTRACT"
+		3 : "MASK"
+	]
+	presetname(string) : "Voxel World Preset Name" : "" : "The Voxel World Preset to be used to generate the world. Voxel World Presets can be found in scripts/voxelworldpresets.txt."
+	custompresetdata(string) : "Custom Voxel World Preset File" : "" : "In case you want to search inside a different file instead of the default. Useful for custom maps."
+
+	chaingenerator(target_destination) : "Chain Voxel World Generator" : "" : "The Voxel World Generator that will generate additional world data after this."
+
+	inherit(boolean) : "Inherit Seed" : "No" : "Does nothing if generator is the first in the chain. Inherits the seed from the previous generator in the chain."
+]

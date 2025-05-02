@@ -1,40 +1,40 @@
 "Options"
 {
-	"Difficulty"
-	{
-		"title"			"#GameUI_Difficulty"
-		"alternating"   "0"
-		"horizontal"	"1"
-		"items"
-		{
-			"Easy"
-			{
-				"text"			"#GameUI_Easy"
-				"description"	"#GameUI_EasyDescription"
-				"type"			"skillyskill"
-				"image"			"gamepadui/easy"
-				"skill"			"1"
-			}
-
-			"Medium"
-			{
-				"text"			"#GameUI_Medium"
-				"description"	"#GameUI_NormalDescription"
-				"type"			"skillyskill"
-				"image"			"gamepadui/medium"
-				"skill"			"2"
-			}
-
-			"Hard"
-			{
-				"text"			"#GameUI_Hard"
-				"description"	"#GameUI_HardDescription"
-				"type"			"skillyskill"
-				"image"			"gamepadui/hard"
-				"skill"			"3"
-			}
-		}
-	}
+	//"Difficulty"
+	//{
+	//	"title"			"#GameUI_Difficulty"
+	//	"alternating"   "0"
+	//	"horizontal"	"1"
+	//	"items"
+	//	{
+	//		"Easy"
+	//		{
+	//			"text"			"#GameUI_Easy"
+	//			"description"	"#GameUI_EasyDescription"
+	//			"type"			"skillyskill"
+	//			"image"			"gamepadui/easy"
+	//			"skill"			"1"
+	//		}
+	//
+	//		"Medium"
+	//		{
+	//			"text"			"#GameUI_Medium"
+	//			"description"	"#GameUI_NormalDescription"
+	//			"type"			"skillyskill"
+	//			"image"			"gamepadui/medium"
+	//			"skill"			"2"
+	//		}
+	//
+	//		"Hard"
+	//		{
+	//			"text"			"#GameUI_Hard"
+	//			"description"	"#GameUI_HardDescription"
+	//			"type"			"skillyskill"
+	//			"image"			"gamepadui/hard"
+	//			"skill"			"3"
+	//		}
+	//	}
+	//}
 	"Keyboard"
 	{
 		"title"			"#GameUI_Keyboard"

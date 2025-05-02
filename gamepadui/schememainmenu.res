@@ -3,8 +3,8 @@
 	"BaseSettings"
 	{
 		"Logo.OffsetX"						"-20"
-		"Logo.OffsetY.MainMenu"					"440"
-		"Logo.OffsetY.InGame"					"440"
+		"Logo.OffsetY.MainMenu"					"450"
+		"Logo.OffsetY.InGame"					"450"
 
 		"Logo.Image"						"gamepadui/logo"
 	
@@ -55,8 +55,8 @@
 	{
 		"Logo"									"255 255 255 255"
 		
-		"Button.Background.Out"					"0 0 0 0"
-		"Button.Background.Over"				"25 13 5 120"
+		"Button.Background.Out"					"0 0 0 100"
+		"Button.Background.Over"				"255 255 255 20"
 		"Button.Background.Pressed"				"255 255 255 255"
 
 		"Button.Background.LeftBorder.Out"			"0 0 0 255"
@@ -80,6 +80,17 @@
 			{
 				"name"			"HalfLife2"
 				"tall"			"34"
+				"weight"		"400"
+				"antialias"		"1"
+			}
+		}
+
+		"Version.Font"
+		{
+			"settings"
+			{
+				"name"			"Comic Note"
+				"tall"			"12"
 				"weight"		"400"
 				"antialias"		"1"
 			}
@@ -113,5 +124,6 @@
 		"file"		"resource/HALFLIFE2.ttf"
 		"file"		"gamepadui/fonts/din1451alt.ttf"
 		"file"		"resource/Super Comic.ttf"
+		"file"		"resource/ComicNoteSmooth.ttf"
 	}
 }

@@ -1,0 +1,50 @@
+"VoxelWorldPresetData"
+{
+	// DEFAULT_FULL
+//---------------------------------------------------------
+	default_full.fillfunction	"full"
+	default_full.indexfunction	"set"
+	default_full.index		"1"
+//---------------------------------------------------------
+
+	// DEFAULT_RANDOMCHUNK
+//---------------------------------------------------------
+	default_randomchunk.fillfunction	"full"
+	default_randomchunk.indexfunction	"setrandomchunk"
+	default_randomchunk.indexmin		"1"
+	default_randomchunk.indexmax		"16"
+//---------------------------------------------------------
+
+	// DEFAULT_PERLIN
+//---------------------------------------------------------
+	default_perlin.fillfunction	"perlin"
+	default_perlin.perlinscale	"20"
+	default_perlin.perlinoctaves	"1"
+	default_perlin.perlinintensity	"2"
+	default_perlin.perlinzoffset	"-4"
+	default_perlin.indexfunction	"set"
+	default_perlin.index		"1"
+//---------------------------------------------------------
+
+	// DEFAULT_PERLIN_MOUNTAINS
+//---------------------------------------------------------
+	default_perlin_mountains.fillfunction	"perlin"
+	default_perlin_mountains.perlinscale	"40"
+	default_perlin_mountains.perlinoctaves	"1"
+	default_perlin_mountains.perlinintensity	"10"
+	default_perlin_mountains.perlinzoffset	"-36"
+	default_perlin_mountains.indexfunction	"set"
+	default_perlin_mountains.index		"1"
+//---------------------------------------------------------
+
+	// DEFAULT_PERLIN_PILLARS
+//---------------------------------------------------------
+	default_perlin_pillars.fillfunction	"perlin"
+	default_perlin_pillars.perlinscale	"40"
+	default_perlin_pillars.perlinoctaves	"1"
+	default_perlin_pillars.perlinintensity	"30"
+	default_perlin_pillars.perlinzoffset	"-128"
+	default_perlin_pillars.indexfunction	"set"
+	default_perlin_pillars.index		"1"
+//---------------------------------------------------------
+}

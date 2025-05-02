@@ -11,7 +11,7 @@
 	"ReturnCheckpoint"
 	{
 		"text"			"#GameUI_GameMenu_ReturnCheckpoint"
-		"command"		"cmd reload"
+		"command"		"cmd gamepadui_openreturncheckpointdialog;"
 		"priority"		"7"
 		"family"		"ingame"
 	}

@@ -1,0 +1,53 @@
+"VoxelSheetData"
+{
+	// DEFAULT
+//--------------------------------------------------------------------------
+	default.material	"voxelsheets/default.vmt"
+	default.gridscale	"4"
+	default.padding		"0.01"
+//--------------------------------------------------------------------------
+
+
+	// MINECRAFT
+//--------------------------------------------------------------------------
+	minecraft.material		"voxelsheets/minecraft.vmt"
+	minecraft.gridscale		"16"
+	minecraft.padding		"0.01"
+
+	// grass
+	minecraft.index.0.replace.front		"3"
+	minecraft.index.0.replace.back		"3"
+	minecraft.index.0.replace.left		"3"
+	minecraft.index.0.replace.right		"3"
+	minecraft.index.0.replace.bottom	"2"
+	minecraft.index.0.rotate.top		"-2"
+
+	// dirt
+	minecraft.index.2.rotate.top		"-2"
+	minecraft.index.2.rotate.bottom		"-2"
+	minecraft.index.2.rotate.left		"-2"
+	minecraft.index.2.rotate.right		"-2"
+	minecraft.index.2.rotate.front		"-2"
+	minecraft.index.2.rotate.back		"-2"
+
+//--------------------------------------------------------------------------
+
+
+	// SWEEPMINER
+//--------------------------------------------------------------------------
+	sweepminer.material		"voxelsheets/sweepminer.vmt"
+	sweepminer.gridscale		"3"
+	sweepminer.padding		"0.01"
+
+	sweepminer.index.0.replace.sides		"2"
+	sweepminer.index.0.replacespecial1.sides	"1"
+	sweepminer.index.0.replacespecial2.sides	"3"
+	sweepminer.index.0.replacespecial3.sides	"4"
+	sweepminer.index.0.specialtype.sides		"2"
+
+	sweepminer.index.0.rotate.top			"-2"
+	sweepminer.index.0.rotate.bottom		"-2"
+
+//--------------------------------------------------------------------------
+
+}

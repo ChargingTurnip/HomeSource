@@ -54,7 +54,7 @@
 		"Tabs.OffsetX"							"64"
 		"Tabs.OffsetY"							"96"
 
-		"Options.Fade"							"36"
+		"Options.Fade"							"48"
 		"Scrollbar.OffsetX"						"656"
 		"Scrollbar.Width"						"7"
 		"Scrollbar.Height"						"60"
@@ -65,19 +65,39 @@
 
 		"FooterMedal.Current.Size"					"40"
 		"FooterMedal.Next.Size"						"20"
+
+		"Button.Text.BottomBorder.Out"			"0"
+		"Button.Text.BottomBorder.Over"			"6"
+		"Button.Text.BottomBorder.Pressed"		"6"
+
+		"Button.Text.OffsetY.Out"				"0"
+		"Button.Text.OffsetY.Over"				"-3"
+		"Button.Text.OffsetY.Pressed"			"-3"
+
+		"Button.Text.OffsetY.Animation.Duration"		"0.15"
+		"Button.Width.Animation.Duration"				"0.15"
+		"Button.Height.Animation.Duration"				"0.25"
+		"Button.Background.Animation.Duration"			"0.2"
+		"Button.Text.Animation.Duration"				"0.2"
+		"Button.Description.Animation.Duration"			"0.5"
 	}
 
 	"Colors"
 	{
-		"Title"									"255 255 255 255"
+		"Title"							"255 255 255 255"
+		"TitleBackground"					"255 134 44 255"
 		"GenericConfirmation"					"255 255 255 255"
 		
-		"Button.Background.Out"						"0 0 0 0"
-		"Button.Background.Over"					"255 255 255 3"
+		"Button.Background.Out"						"0 0 0 100"
+		"Button.Background.Over"					"255 255 255 20"
 		"Button.Background.Pressed"					"255 255 255 255"
 
-		"Button.Text.Out"							"255 255 255 150"
-		"Button.Text.Over"							"255 255 255 255"
+		"Button.Background.BottomBorder.Out"			"0 0 0 255"
+		"Button.Background.BottomBorder.Over"			"255 134 44 255"
+		"Button.Background.BottomBorder.Pressed"		"255 255 255 255"
+
+		"Button.Text.Out"						"255 255 255 150"
+		"Button.Text.Over"						"255 134 44 255"
 		"Button.Text.Pressed"						"0 0 0 255"
 
 		"Button.Description.Out"					"0 0 0 0"
